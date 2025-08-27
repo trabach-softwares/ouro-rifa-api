@@ -1,0 +1,23 @@
+{
+  "raffles": [
+    {
+      "id": "raffle_1756218823479_3ie5ndyp6",
+      "title": "Rifa teste de um iphone",
+      "description": "Rifa teste de um Iphone",
+      "ticketPrice": 22,
+      "totalTickets": 150,
+      "soldTickets": 0,
+      "endDate": "2025-09-25T14:33:43.376Z",
+      "imageId": "img_1756218823477_n7cjoijfs",
+      "status": "pending",
+      "owner": "user_b94383f2-0dcf-4ad3-8206-ffcf9013fc75",
+      "createdAt": "2025-08-26T14:33:43.480Z",
+      "updatedAt": "2025-08-26T14:33:43.480Z",
+      "settings": {
+        "maxTicketsPerPerson": "50",
+        "allowComments": "true",
+        "autoApprovePayments": "false"
+      }
+    }
+  ]
+}

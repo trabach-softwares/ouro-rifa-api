@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "platform": {
+      "name": "Ouro Rifa",
+      "version": "1.0.0",
+      "maintenanceMode": false,
+      "defaultCommission": 10,
+      "maxFileSize": 5242880,
+      "allowedImageTypes": [
+        "jpg",
+        "jpeg",
+        "png",
+        "webp"
+      ]
+    },
+    "notifications": {
+      "emailEnabled": true,
+      "smsEnabled": true,
+      "pushEnabled": true
+    },
+    "payment": {
+      "pixEnabled": true,
+      "creditCardEnabled": false,
+      "bankTransferEnabled": true,
+      "autoApprove": false
+    }
+  }
+}

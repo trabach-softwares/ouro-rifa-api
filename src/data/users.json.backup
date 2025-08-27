@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "user_854d2022-6725-4a58-9ba9-088b3a171cdb",
+      "name": "teste",
+      "email": "teste@email.com",
+      "phone": "(11) 99999-9999",
+      "password": "$2a$12$t8utgn90EYKGVGUOoN3hwuMF/RBxtE2COtBYVikDcy9lMIz/nbpNm",
+      "role": "user",
+      "company": "Rifas João",
+      "website": "https://rifasjoao.com.br",
+      "paymentSettings": {
+        "pixKey": "joao@pix.com",
+        "bankName": "Banco do Brasil",
+        "agency": "1234",
+        "account": "56789",
+        "accountType": "corrente"
+      },
+      "notificationSettings": {
+        "emailNewPurchase": true,
+        "emailRaffleComplete": true,
+        "smsNewPurchase": false,
+        "pushNotifications": true
+      },
+      "registeredAt": "2025-08-14T17:34:49.978Z",
+      "lastLogin": "2025-08-22T21:16:32.205Z",
+      "isActive": true,
+      "totalPurchases": 0,
+      "updatedAt": "2025-08-22T21:16:32.205Z"
+    },
+    {
+      "id": "user_b94383f2-0dcf-4ad3-8206-ffcf9013fc75",
+      "name": "Jonathan Trabach",
+      "email": "trabachjonathan@gmail.com",
+      "phone": "(55) 27996-2530",
+      "password": "$2a$12$kxUb.ACKcm/U.UbSMz2EOuo/RZg3pxzqR80ce.md8cVh5dFymdJI2",
+      "role": "user",
+      "company": "Trabach Premios",
+      "website": "",
+      "paymentSettings": {
+        "pixKey": "14009909714",
+        "bankName": "Banco teste",
+        "agency": "12",
+        "account": "111111111",
+        "accountType": "corrente"
+      },
+      "notificationSettings": {
+        "emailNewPurchase": true,
+        "emailRaffleComplete": true,
+        "smsNewPurchase": false,
+        "smsRaffleComplete": true,
+        "pushNotifications": true
+      },
+      "registeredAt": "2025-08-18T22:16:55.858Z",
+      "lastLogin": "2025-08-25T18:57:38.805Z",
+      "isActive": true,
+      "totalPurchases": 0,
+      "updatedAt": "2025-08-25T18:57:38.805Z"
+    }
+  ]
+}
