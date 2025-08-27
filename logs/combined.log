@@ -2219,3 +2219,171 @@ Error: Rota /api/raffles/raffle_1756218823479_3ie5ndyp6/status não encontrada
 2025-08-26 13:17:56 [INFO]: GET /api/raffles/user/my-raffles - ::1
 2025-08-26 15:58:17 [INFO]: Servidor rodando na porta 3000
 2025-08-26 15:58:17 [INFO]: SIGTERM recebido. Fazendo shutdown graceful...
+2025-08-27 12:58:54 [INFO]: Servidor rodando na porta 3000
+2025-08-27 12:59:06 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 12:59:06 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 12:59:06 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 13:00:36 [INFO]: POST /api/auth/login - ::1
+2025-08-27 13:00:37 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-27 13:00:38 [INFO]: Servidor rodando na porta 3000
+2025-08-27 13:00:38 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 13:00:38 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 13:00:40 [INFO]: POST /api/auth/logout - ::1
+2025-08-27 13:00:40 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-08-27 13:25:56 [INFO]: POST /api/auth/login - ::1
+2025-08-27 13:25:57 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-27 13:25:58 [INFO]: Servidor rodando na porta 3000
+2025-08-27 13:25:58 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 13:25:58 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 13:26:53 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 13:27:24 [INFO]: GET /api/reports/sales - ::1
+2025-08-27 13:27:24 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 13:27:34 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 13:27:34 [INFO]: GET /api/reports/sales - ::1
+2025-08-27 13:27:34 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 13:27:43 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 13:27:43 [INFO]: GET /api/reports/sales - ::1
+2025-08-27 13:27:43 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 15:08:33 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 15:08:33 [INFO]: GET /api/reports/sales - ::1
+2025-08-27 15:08:33 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 15:09:02 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 15:09:02 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 15:09:02 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 15:09:56 [INFO]: POST /api/auth/logout - ::1
+2025-08-27 15:09:56 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-08-27 15:10:01 [INFO]: POST /api/auth/login - ::1
+2025-08-27 15:10:02 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-27 15:10:03 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 15:10:03 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 15:10:05 [INFO]: Servidor rodando na porta 3000
+2025-08-27 15:11:58 [INFO]: POST /api/auth/login - ::1
+2025-08-27 15:11:59 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-27 15:12:01 [INFO]: Servidor rodando na porta 3000
+2025-08-27 15:13:15 [INFO]: POST /api/auth/login - ::1
+2025-08-27 15:13:16 [ERROR]: Global Error Handler: Email ou senha incorretos {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Email ou senha incorretos
+    at UserService.login (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/userService.js:110:13)
+    at async /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/authController.js:41:22
+2025-08-27 15:43:26 [INFO]: POST /api/auth/login - ::1
+2025-08-27 15:43:26 [INFO]: Login realizado com sucesso: teste@email.com
+2025-08-27 15:43:29 [INFO]: Servidor rodando na porta 3000
+2025-08-27 16:08:16 [INFO]: POST /api/auth/register - ::1
+2025-08-27 16:08:16 [INFO]: Novo usuário registrado: joao@email.com
+2025-08-27 16:08:18 [INFO]: Servidor rodando na porta 3000
+2025-08-27 16:08:26 [INFO]: POST /api/auth/register - ::1
+2025-08-27 16:08:26 [ERROR]: Global Error Handler: Este email já está em uso {"url":"/api/auth/register","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Este email já está em uso
+    at UserService.register (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/userService.js:51:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/authController.js:19:45
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at validateRegister (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/userValidator.js:118:7)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-27 16:09:04 [INFO]: GET / - ::1
+2025-08-27 17:17:22 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:17:22 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:17:22 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:17:24 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:17:24 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:17:24 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:17:25 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:17:25 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:17:25 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:18:27 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:18:27 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:18:27 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:19:58 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:19:58 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:19:58 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:02 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:20:02 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:20:02 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:20:03 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:04 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:20:04 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:20:04 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:10 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:20:10 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:20:10 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:15 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:20:20 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:20:20 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:20:20 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:39:21 [INFO]: GET /api/auth/profile - ::1
+2025-08-27 17:39:21 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 17:39:21 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 17:39:23 [INFO]: POST /api/auth/logout - ::1
+2025-08-27 17:39:23 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-08-27 17:41:18 [INFO]: POST /api/auth/register - ::1
+2025-08-27 17:42:48 [INFO]: POST /api/auth/register - ::1
+2025-08-27 18:34:53 [INFO]: POST /api/auth/register - ::1
+2025-08-27 18:34:53 [INFO]: Novo usuário registrado: teste@teste.com
+2025-08-27 18:34:54 [INFO]: POST /api/auth/login - ::1
+2025-08-27 18:34:55 [INFO]: Servidor rodando na porta 3000
+2025-08-27 18:35:24 [INFO]: POST /api/auth/login - ::1
+2025-08-27 18:35:25 [INFO]: Login realizado com sucesso: teste@teste.com
+2025-08-27 18:35:26 [INFO]: Servidor rodando na porta 3000
+2025-08-27 18:35:27 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 18:35:27 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 18:35:32 [INFO]: POST /api/auth/logout - ::1
+2025-08-27 18:35:32 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-08-27 18:35:50 [INFO]: Servidor rodando na porta 3000
+2025-08-27 18:36:07 [INFO]: Servidor rodando na porta 3000
+2025-08-27 18:36:18 [INFO]: Servidor rodando na porta 3000

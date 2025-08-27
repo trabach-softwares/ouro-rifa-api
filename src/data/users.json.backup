@@ -23,10 +23,10 @@
         "pushNotifications": true
       },
       "registeredAt": "2025-08-14T17:34:49.978Z",
-      "lastLogin": "2025-08-22T21:16:32.205Z",
+      "lastLogin": "2025-08-27T18:43:26.620Z",
       "isActive": true,
       "totalPurchases": 0,
-      "updatedAt": "2025-08-22T21:16:32.205Z"
+      "updatedAt": "2025-08-27T18:43:26.620Z"
     },
     {
       "id": "user_b94383f2-0dcf-4ad3-8206-ffcf9013fc75",
@@ -52,10 +52,64 @@
         "pushNotifications": true
       },
       "registeredAt": "2025-08-18T22:16:55.858Z",
-      "lastLogin": "2025-08-25T18:57:38.805Z",
+      "lastLogin": "2025-08-27T18:11:59.207Z",
       "isActive": true,
       "totalPurchases": 0,
-      "updatedAt": "2025-08-25T18:57:38.805Z"
+      "updatedAt": "2025-08-27T18:11:59.207Z"
+    },
+    {
+      "id": "user_1756321696967_cd2plc7nu",
+      "name": "João Silva",
+      "email": "joao@email.com",
+      "password": "$2a$12$IPeGtQ73OR03.GfhZWr.R.OMIoLsJVimHbMfcsdt6lkA/9cnK6g1W",
+      "phone": "(11) 99999-9999",
+      "company": "Rifas João",
+      "role": "user",
+      "isActive": true,
+      "paymentSettings": {
+        "pixKey": "",
+        "bankName": "",
+        "agency": "",
+        "account": "",
+        "accountType": "corrente"
+      },
+      "notificationSettings": {
+        "emailNewPurchase": true,
+        "emailRaffleComplete": true,
+        "smsNewPurchase": false,
+        "smsRaffleComplete": true,
+        "pushNotifications": true
+      },
+      "registeredAt": "2025-08-27T19:08:16.967Z",
+      "lastLogin": null,
+      "totalPurchases": 0
+    },
+    {
+      "id": "user_1756330493711_fdi1lhor5",
+      "name": "Opa",
+      "email": "teste@teste.com",
+      "phone": "(12) 21212-1212",
+      "password": "$2a$12$3OG4Y.TTFX9czjjW7oBEMez3OQE.Vgwejmoj7l6GBR/AUoEAZHSrC",
+      "company": "Opa",
+      "role": "user",
+      "isActive": true,
+      "paymentSettings": {
+        "pixKey": "",
+        "bankName": "",
+        "agency": "",
+        "account": "",
+        "accountType": "corrente"
+      },
+      "notificationSettings": {
+        "emailNewPurchase": true,
+        "emailRaffleComplete": true,
+        "smsNewPurchase": false,
+        "smsRaffleComplete": true,
+        "pushNotifications": true
+      },
+      "registeredAt": "2025-08-27T21:34:53.711Z",
+      "lastLogin": null,
+      "totalPurchases": 0
     }
   ]
 }
