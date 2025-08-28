@@ -57,6 +57,24 @@ const PAYMENT_STATUS = {
   CANCELLED: 'cancelled'
 };
 
+// Tipos de sorteio disponíveis
+const DRAW_TYPES = {
+  SORTEADOR_COM_BR: 'sorteador_com_br',
+  LOTERIA_FEDERAL: 'loteria_federal', 
+  ORGANIZADOR: 'organizador',
+  SORTEADOR_RIFAUP: 'sorteador_rifaup'
+};
+
+// Categorias de rifas
+const RAFFLE_CATEGORIES = {
+  ELECTRONICS: 'Eletrônicos',
+  VEHICLES: 'Veículos',
+  JEWELRY: 'Joias',
+  APPLIANCES: 'Eletrodomésticos',
+  MONEY: 'Dinheiro',
+  OTHERS: 'Outros'
+};
+
 const VALIDATION_RULES = {
   // Usuário
   NAME_MIN_LENGTH: 2,
@@ -64,16 +82,19 @@ const VALIDATION_RULES = {
   PASSWORD_MIN_LENGTH: 6,
   
   // Rifa
-  TITLE_MIN_LENGTH: 5,
+  TITLE_MIN_LENGTH: 3,
   TITLE_MAX_LENGTH: 100,
   DESCRIPTION_MIN_LENGTH: 10,
   DESCRIPTION_MAX_LENGTH: 1000,
   MIN_TICKETS: 10,
   MAX_TICKETS: 100000,
+  MIN_TICKET_PRICE: 1.00,
+  MAX_TICKET_PRICE: 10000,
   
-  // Tickets
-  MAX_TICKETS_PER_PURCHASE: 100,
-  MAX_TICKETS_PER_PERSON: 1000,
+  // Tickets por compra
+  MIN_TICKETS_PER_PURCHASE: 1,
+  MAX_TICKETS_PER_PURCHASE: 199,
+  MAX_TICKETS_PER_PERSON: 199,
   
   // Segurança
   MAX_LOGIN_ATTEMPTS: 5,
@@ -86,5 +107,7 @@ module.exports = {
   DEFAULT_PAGINATION,
   RAFFLE_STATUS,
   PAYMENT_STATUS,
-  VALIDATION_RULES
+  VALIDATION_RULES,
+  RAFFLE_CATEGORIES,
+  DRAW_TYPES
 };

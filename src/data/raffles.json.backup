@@ -1,4 +1,32 @@
 {
   "raffles": [
+    {
+      "id": "raffle_1756344348899_v7shl9h1l",
+      "title": "iPhone 15 Pro Max 256GB",
+      "description": "iPhone 15 Pro Max novo na caixa, com todos os acessórios originais. Cor: Titânio Natural.",
+      "campaignImages": [],
+      "totalTickets": 1000,
+      "soldTickets": 0,
+      "ticketPrice": 10,
+      "drawType": "sorteador_com_br",
+      "drawDate": null,
+      "prizes": [],
+      "status": "pending",
+      "owner": "user_1756340056197_4dle2lolu",
+      "createdAt": "2025-08-28T01:25:48.899Z",
+      "updatedAt": "2025-08-28T01:25:48.900Z",
+      "settings": {
+        "minTicketsPerPurchase": 1,
+        "maxTicketsPerPurchase": 199,
+        "maxTicketsPerPerson": 50,
+        "showBuyersList": true,
+        "autoApprovePayments": false
+      },
+      "winner": null,
+      "winnerTicket": null,
+      "completedAt": null,
+      "platformFee": 147,
+      "estimatedRevenue": 9853
+    }
   ]
 }

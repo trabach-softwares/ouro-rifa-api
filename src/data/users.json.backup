@@ -1,47 +1,19 @@
 {
   "users": [
     {
-      "id": "user_854d2022-6725-4a58-9ba9-088b3a171cdb",
-      "name": "teste",
-      "email": "teste@email.com",
-      "phone": "(11) 99999-9999",
-      "password": "$2a$12$t8utgn90EYKGVGUOoN3hwuMF/RBxtE2COtBYVikDcy9lMIz/nbpNm",
-      "role": "user",
-      "company": "Rifas João",
-      "website": "https://rifasjoao.com.br",
-      "paymentSettings": {
-        "pixKey": "joao@pix.com",
-        "bankName": "Banco do Brasil",
-        "agency": "1234",
-        "account": "56789",
-        "accountType": "corrente"
-      },
-      "notificationSettings": {
-        "emailNewPurchase": true,
-        "emailRaffleComplete": true,
-        "smsNewPurchase": false,
-        "pushNotifications": true
-      },
-      "registeredAt": "2025-08-14T17:34:49.978Z",
-      "lastLogin": "2025-08-27T18:43:26.620Z",
-      "isActive": true,
-      "totalPurchases": 0,
-      "updatedAt": "2025-08-27T18:43:26.620Z"
-    },
-    {
-      "id": "user_b94383f2-0dcf-4ad3-8206-ffcf9013fc75",
+      "id": "user_1756340056197_4dle2lolu",
       "name": "Jonathan Trabach",
       "email": "trabachjonathan@gmail.com",
-      "phone": "(55) 27996-2530",
-      "password": "$2a$12$kxUb.ACKcm/U.UbSMz2EOuo/RZg3pxzqR80ce.md8cVh5dFymdJI2",
-      "role": "user",
+      "phone": "(27) 99625-3020",
+      "password": "$2a$12$Z4wu8yVZBsO7711V1pMg0e3pZsgu2.hPUOGEBwEzc7XbzkG4NEkBC",
       "company": "Trabach Premios",
-      "website": "",
+      "role": "user",
+      "isActive": true,
       "paymentSettings": {
-        "pixKey": "14009909714",
-        "bankName": "Banco teste",
-        "agency": "12",
-        "account": "111111111",
+        "pixKey": "",
+        "bankName": "",
+        "agency": "",
+        "account": "",
         "accountType": "corrente"
       },
       "notificationSettings": {
@@ -51,65 +23,10 @@
         "smsRaffleComplete": true,
         "pushNotifications": true
       },
-      "registeredAt": "2025-08-18T22:16:55.858Z",
-      "lastLogin": "2025-08-27T18:11:59.207Z",
-      "isActive": true,
+      "registeredAt": "2025-08-28T00:14:16.197Z",
+      "lastLogin": "2025-08-28T01:23:49.575Z",
       "totalPurchases": 0,
-      "updatedAt": "2025-08-27T18:11:59.207Z"
-    },
-    {
-      "id": "user_1756321696967_cd2plc7nu",
-      "name": "João Silva",
-      "email": "joao@email.com",
-      "password": "$2a$12$IPeGtQ73OR03.GfhZWr.R.OMIoLsJVimHbMfcsdt6lkA/9cnK6g1W",
-      "phone": "(11) 99999-9999",
-      "company": "Rifas João",
-      "role": "user",
-      "isActive": true,
-      "paymentSettings": {
-        "pixKey": "",
-        "bankName": "",
-        "agency": "",
-        "account": "",
-        "accountType": "corrente"
-      },
-      "notificationSettings": {
-        "emailNewPurchase": true,
-        "emailRaffleComplete": true,
-        "smsNewPurchase": false,
-        "smsRaffleComplete": true,
-        "pushNotifications": true
-      },
-      "registeredAt": "2025-08-27T19:08:16.967Z",
-      "lastLogin": null,
-      "totalPurchases": 0
-    },
-    {
-      "id": "user_1756330493711_fdi1lhor5",
-      "name": "Opa",
-      "email": "teste@teste.com",
-      "phone": "(12) 21212-1212",
-      "password": "$2a$12$3OG4Y.TTFX9czjjW7oBEMez3OQE.Vgwejmoj7l6GBR/AUoEAZHSrC",
-      "company": "Opa",
-      "role": "user",
-      "isActive": true,
-      "paymentSettings": {
-        "pixKey": "",
-        "bankName": "",
-        "agency": "",
-        "account": "",
-        "accountType": "corrente"
-      },
-      "notificationSettings": {
-        "emailNewPurchase": true,
-        "emailRaffleComplete": true,
-        "smsNewPurchase": false,
-        "smsRaffleComplete": true,
-        "pushNotifications": true
-      },
-      "registeredAt": "2025-08-27T21:34:53.711Z",
-      "lastLogin": null,
-      "totalPurchases": 0
+      "updatedAt": "2025-08-28T01:23:49.575Z"
     }
   ]
 }

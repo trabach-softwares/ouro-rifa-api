@@ -1,5 +1,32 @@
 {
   "users": [
-    
+    {
+      "id": "user_1756340056197_4dle2lolu",
+      "name": "Jonathan Trabach",
+      "email": "trabachjonathan@gmail.com",
+      "phone": "(27) 99625-3020",
+      "password": "$2a$12$Z4wu8yVZBsO7711V1pMg0e3pZsgu2.hPUOGEBwEzc7XbzkG4NEkBC",
+      "company": "Trabach Premios",
+      "role": "user",
+      "isActive": true,
+      "paymentSettings": {
+        "pixKey": "",
+        "bankName": "",
+        "agency": "",
+        "account": "",
+        "accountType": "corrente"
+      },
+      "notificationSettings": {
+        "emailNewPurchase": true,
+        "emailRaffleComplete": true,
+        "smsNewPurchase": false,
+        "smsRaffleComplete": true,
+        "pushNotifications": true
+      },
+      "registeredAt": "2025-08-28T00:14:16.197Z",
+      "lastLogin": "2025-08-28T01:25:09.087Z",
+      "totalPurchases": 0,
+      "updatedAt": "2025-08-28T01:25:09.087Z"
+    }
   ]
 }

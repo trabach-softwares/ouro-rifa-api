@@ -2387,3 +2387,221 @@ Error: Rota /api/auth/logout não encontrada
 2025-08-27 18:35:50 [INFO]: Servidor rodando na porta 3000
 2025-08-27 18:36:07 [INFO]: Servidor rodando na porta 3000
 2025-08-27 18:36:18 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:13:39 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:14:15 [INFO]: POST /api/auth/register - ::1
+2025-08-27 21:14:16 [INFO]: Novo usuário registrado: trabachjonathan@gmail.com
+2025-08-27 21:14:17 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:14:38 [INFO]: POST /api/auth/login - ::1
+2025-08-27 21:14:39 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-27 21:14:41 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:14:41 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-27 21:14:41 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 21:14:48 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 21:20:15 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:20:16 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:20:43 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:20:45 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:21:20 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:21:23 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:21:39 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:21:41 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:21:56 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:22:00 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:25:15 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:25:18 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 21:25:35 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 21:25:49 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:25:51 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 21:25:56 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:25:57 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 21:26:05 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:45:41 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:45:43 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:45:56 [ERROR]: Erro ao carregar rotas: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.values (<anonymous>)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:79:24)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+2025-08-27 21:45:56 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:46:20 [ERROR]: Erro ao carregar rotas: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.values (<anonymous>)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:79:24)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+2025-08-27 21:46:20 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:46:41 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:46:45 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:47:11 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/raffles.js:51:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-27 21:47:11 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:47:25 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/raffles.js:51:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-27 21:47:25 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:47:34 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:47:36 [INFO]: Servidor rodando na porta 3000
+2025-08-27 21:57:08 [INFO]: POST /api/raffles - ::1
+2025-08-27 21:57:16 [INFO]: POST /api/raffles - ::1
+2025-08-27 21:57:38 [INFO]: POST /api/raffles - ::1
+2025-08-27 22:08:11 [INFO]: POST /api/raffles - ::1
+2025-08-27 22:15:57 [INFO]: POST /api/raffles - ::1
+2025-08-27 22:22:28 [INFO]: POST /api/raffles - ::1
+2025-08-27 22:23:09 [INFO]: POST /api/raffles - ::1
+2025-08-27 22:23:32 [INFO]: POST /api/raffles - ::1
+2025-08-27 22:23:32 [ERROR]: Erro no middleware de autenticação: jwt malformed {"name":"JsonWebTokenError"}
+JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/jsonwebtoken/verify.js:70:17)
+    at auth (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/auth.js:31:25)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-27 22:23:38 [INFO]: POST /api/auth/login - ::1
+2025-08-27 22:23:38 [ERROR]: Global Error Handler: Email ou senha incorretos {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Email ou senha incorretos
+    at UserService.login (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/userService.js:98:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/authController.js:41:45
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at validateLogin (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/userValidator.js:131:7)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-27 22:23:49 [INFO]: POST /api/auth/login - ::1
+2025-08-27 22:23:49 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-27 22:23:50 [INFO]: Servidor rodando na porta 3000
+2025-08-27 22:25:00 [INFO]: POST /api/raffles/with-image - ::1
+2025-08-27 22:25:00 [ERROR]: Erro no middleware de autenticação: jwt malformed {"name":"JsonWebTokenError"}
+JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/jsonwebtoken/verify.js:70:17)
+    at auth (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/auth.js:31:25)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-27 22:25:08 [INFO]: POST /api/auth/login - ::1
+2025-08-27 22:25:09 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-27 22:25:10 [INFO]: Servidor rodando na porta 3000
+2025-08-27 22:25:20 [INFO]: POST /api/raffles/with-image - ::1
+2025-08-27 22:25:20 [INFO]: Nova rifa criada com imagem: raffle_1756344320934_sxczpr5qr por usuário user_1756340056197_4dle2lolu
+2025-08-27 22:25:23 [INFO]: Servidor rodando na porta 3000
+2025-08-27 22:25:47 [INFO]: Servidor rodando na porta 3000
+2025-08-27 22:25:48 [INFO]: POST /api/raffles/with-image - ::1
+2025-08-27 22:25:48 [INFO]: Nova rifa criada com imagem: raffle_1756344348899_v7shl9h1l por usuário user_1756340056197_4dle2lolu
+2025-08-27 22:25:49 [INFO]: Servidor rodando na porta 3000
+2025-08-27 22:36:04 [INFO]: POST /api/raffles/with-image - ::1
+2025-08-27 22:36:04 [ERROR]: Erro ao criar rifa: [{"field":"description","message":"Descrição deve ter pelo menos 10 caracteres"},{"field":"publicContactPhone","message":"Telefone deve estar no formato (11) 99999-9999"},{"field":"prizes.0.description","message":"\"prizes[0].description\" is not allowed to be empty"}]
+Error: [{"field":"description","message":"Descrição deve ter pelo menos 10 caracteres"},{"field":"publicContactPhone","message":"Telefone deve estar no formato (11) 99999-9999"},{"field":"prizes.0.description","message":"\"prizes[0].description\" is not allowed to be empty"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:262:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-08-27 22:36:04 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756340056197_4dle2lolu"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:336:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-08-27 22:36:12 [INFO]: POST /api/raffles/with-image - ::1
+2025-08-27 22:36:12 [ERROR]: Erro ao criar rifa: [{"field":"description","message":"Descrição deve ter pelo menos 10 caracteres"},{"field":"publicContactPhone","message":"Telefone deve estar no formato (11) 99999-9999"},{"field":"prizes.0.description","message":"\"prizes[0].description\" is not allowed to be empty"}]
+Error: [{"field":"description","message":"Descrição deve ter pelo menos 10 caracteres"},{"field":"publicContactPhone","message":"Telefone deve estar no formato (11) 99999-9999"},{"field":"prizes.0.description","message":"\"prizes[0].description\" is not allowed to be empty"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:262:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-08-27 22:36:12 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756340056197_4dle2lolu"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:336:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-08-27 22:42:30 [INFO]: POST /api/raffles - ::1
+2025-08-27 22:50:33 [INFO]: POST /api/raffles/with-image - ::1
+2025-08-27 22:50:33 [INFO]: Imagem da rifa enviada por trabachjonathan@gmail.com: raffle_1756345833064-292161035.jpeg (3094 bytes)
+2025-08-27 22:50:33 [INFO]: Nova rifa criada com imagem: raffle_1756345833112_hlq61s2xw por usuário user_1756340056197_4dle2lolu
+2025-08-27 22:50:34 [INFO]: Servidor rodando na porta 3000
+2025-08-27 22:50:35 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-27 22:50:45 [INFO]: PATCH /api/raffles/raffle_1756345833112_hlq61s2xw/status - ::1
+2025-08-27 22:50:45 [ERROR]: Global Error Handler: Rota /api/raffles/raffle_1756345833112_hlq61s2xw/status não encontrada {"url":"/api/raffles/raffle_1756345833112_hlq61s2xw/status","method":"PATCH","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756340056197_4dle2lolu"}
+Error: Rota /api/raffles/raffle_1756345833112_hlq61s2xw/status não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-08-27 22:51:01 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-28 10:01:22 [INFO]: GET /api/auth/profile - ::1
+2025-08-28 10:01:22 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-28 10:01:22 [INFO]: GET /api/raffles/user/my-raffles - ::1

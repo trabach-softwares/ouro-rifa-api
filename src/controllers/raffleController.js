@@ -7,6 +7,8 @@ const ResponseFormatter = require('../utils/responseFormatter');
 const { DEFAULT_PAGINATION, ERROR_MESSAGES } = require('../config/constants');
 const { logger } = require('../utils/logger');
 const { catchAsync } = require('../middleware/errorHandler');
+const RaffleValidator = require('../validators/raffleValidator');
+const { RAFFLE_CATEGORIES, DRAW_TYPES } = require('../config/constants');
 
 class RaffleController {
   constructor() {
@@ -224,155 +226,95 @@ class RaffleController {
 
   // Criar rifa
   createRaffle = catchAsync(async (req, res) => {
-    const {
-      title,
-      description,
-      ticketPrice,
-      totalTickets,
-      endDate,
-      settings = {}
-    } = req.body;
+    try {
+      // Validar dados usando o novo validador
+      const validatedData = RaffleValidator.validateCreate(req.body);
 
-    // Validações básicas
-    if (!title || !description || !ticketPrice || !totalTickets || !endDate) {
-      return ResponseFormatter.badRequest(res, 'Campos obrigatórios: title, description, ticketPrice, totalTickets, endDate');
-    }
+      const newRaffle = {
+        id: `raffle_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        ...validatedData,
+        owner: req.user.id,
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString()
+      };
 
-    if (ticketPrice <= 0 || totalTickets <= 0) {
-      return ResponseFormatter.badRequest(res, 'Preço do ticket e total de tickets devem ser maiores que zero');
-    }
+      const createdRaffle = dataManager.createRaffle(newRaffle);
 
-    if (new Date(endDate) <= new Date()) {
-      return ResponseFormatter.badRequest(res, 'Data de encerramento deve ser no futuro');
-    }
+      logger.info(`Nova rifa criada: ${createdRaffle.id} por usuário ${req.user.id}`);
 
-    const newRaffle = {
-      id: `raffle_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-      title,
-      description,
-      ticketPrice: parseFloat(ticketPrice),
-      totalTickets: parseInt(totalTickets),
-      soldTickets: 0,
-      endDate: new Date(endDate).toISOString(),
-      image: null,
-      status: 'pending',
-      owner: req.user.id,
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString(),
-      settings: {
-        maxTicketsPerPerson: settings.maxTicketsPerPerson || 10,
-        allowComments: settings.allowComments !== false,
-        autoApprovePayments: settings.autoApprovePayments === true,
-        ...settings
+      return ResponseFormatter.created(res, createdRaffle, 'Rifa criada com sucesso');
+    } catch (error) {
+      if (error.message.startsWith('[') || error.message.startsWith('{')) {
+        // Erros de validação
+        const validationErrors = JSON.parse(error.message);
+        return ResponseFormatter.badRequest(res, 'Dados inválidos', validationErrors);
       }
-    };
-
-    dataManager.createRaffle(newRaffle);
-
-    logger.info(`Nova rifa criada: ${newRaffle.id} por usuário ${req.user.id}`);
-
-    return ResponseFormatter.created(res, newRaffle, 'Rifa criada com sucesso');
+      
+      logger.error('Erro ao criar rifa:', error);
+      return ResponseFormatter.error(res, 'Erro interno ao criar rifa');
+    }
   });
 
   // Criar rifa com imagem
   createRaffleWithImage = catchAsync(async (req, res) => {
-    const {
-      title,
-      description,
-      ticketPrice,
-      totalTickets,
-      endDate,
-      settings = {}
-    } = req.body;
-
-    // Validações básicas
-    if (!title || !description || !ticketPrice || !totalTickets || !endDate) {
-      // Se há erro e foi enviado arquivo, remover o arquivo
-      if (req.file && fs.existsSync(req.file.path)) {
-        fs.unlinkSync(req.file.path);
-      }
-      return ResponseFormatter.badRequest(res, 'Campos obrigatórios: title, description, ticketPrice, totalTickets, endDate');
-    }
-
-    if (ticketPrice <= 0 || totalTickets <= 0) {
-      if (req.file && fs.existsSync(req.file.path)) {
-        fs.unlinkSync(req.file.path);
-      }
-      return ResponseFormatter.badRequest(res, 'Preço do ticket e total de tickets devem ser maiores que zero');
-    }
-
-    if (new Date(endDate) <= new Date()) {
-      if (req.file && fs.existsSync(req.file.path)) {
-        fs.unlinkSync(req.file.path);
-      }
-      return ResponseFormatter.badRequest(res, 'Data de encerramento deve ser no futuro');
-    }
-
-    let uploadInfo = null;
-
-    // Processar imagem se foi enviada
-    if (req.file) {
-      try {
-        // Salvar informações do upload no dataManager
-        const fileInfo = {
-          id: `img_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-          originalName: req.file.originalname,
-          filename: req.file.filename,
-          mimetype: req.file.mimetype,
-          size: req.file.size,
-          path: req.file.path,
-          url: `/uploads/raffles/${req.file.filename}`,
-          uploadedBy: req.user.id,
-          description: `Imagem da rifa: ${title}`,
-          category: 'raffle_images',
-          createdAt: new Date().toISOString()
-        };
-
-        uploadInfo = dataManager.createUpload(fileInfo);
-
-        logger.info(`Imagem da rifa enviada por ${req.user.email}: ${req.file.filename} (${req.file.size} bytes)`);
-      } catch (error) {
-        logger.error('Erro ao processar upload da imagem:', error);
-        
-        // Remover arquivo em caso de erro
-        if (fs.existsSync(req.file.path)) {
-          fs.unlinkSync(req.file.path);
-        }
-        
-        return ResponseFormatter.error(res, 'Erro ao processar upload da imagem');
-      }
-    }
-
-    // Criar a rifa
     try {
+      // Validar dados básicos primeiro
+      const validatedData = RaffleValidator.validateCreate(req.body);
+
+      let uploadInfo = null;
+
+      // Processar imagem se foi enviada
+      if (req.file) {
+        try {
+          const fileInfo = {
+            id: `img_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+            originalName: req.file.originalname,
+            filename: req.file.filename,
+            mimetype: req.file.mimetype,
+            size: req.file.size,
+            path: req.file.path,
+            url: `/uploads/raffles/${req.file.filename}`,
+            uploadedBy: req.user.id,
+            description: `Imagem da rifa: ${validatedData.title}`,
+            category: 'raffle_images',
+            createdAt: new Date().toISOString()
+          };
+
+          uploadInfo = dataManager.createUpload(fileInfo);
+
+          // Adicionar a imagem às imagens da campanha
+          if (!validatedData.campaignImages) {
+            validatedData.campaignImages = [];
+          }
+          validatedData.campaignImages.unshift(uploadInfo.url);
+
+          logger.info(`Imagem da rifa enviada por ${req.user.email}: ${req.file.filename} (${req.file.size} bytes)`);
+        } catch (error) {
+          logger.error('Erro ao processar upload da imagem:', error);
+          
+          if (fs.existsSync(req.file.path)) {
+            fs.unlinkSync(req.file.path);
+          }
+          
+          return ResponseFormatter.error(res, 'Erro ao processar upload da imagem');
+        }
+      }
+
+      // Criar a rifa
       const newRaffle = {
         id: `raffle_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-        title,
-        description,
-        ticketPrice: parseFloat(ticketPrice),
-        totalTickets: parseInt(totalTickets),
-        soldTickets: 0,
-        endDate: new Date(endDate).toISOString(),
-        imageId: uploadInfo?.id || null, // Referência ao upload
-        status: 'pending',
+        ...validatedData,
         owner: req.user.id,
         createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString(),
-        settings: {
-          maxTicketsPerPerson: parseInt(settings.maxTicketsPerPerson) || 10,
-          allowComments: settings.allowComments !== 'false',
-          autoApprovePayments: settings.autoApprovePayments === 'true',
-          ...settings
-        }
+        updatedAt: new Date().toISOString()
       };
 
-      dataManager.createRaffle(newRaffle);
+      const createdRaffle = dataManager.createRaffle(newRaffle);
 
-      logger.info(`Nova rifa criada com imagem: ${newRaffle.id} por usuário ${req.user.id}`);
+      logger.info(`Nova rifa criada com imagem: ${createdRaffle.id} por usuário ${req.user.id}`);
 
-      // Preparar resposta com informações completas
       const response = {
-        raffle: newRaffle,
+        raffle: createdRaffle,
         image: uploadInfo ? {
           id: uploadInfo.id,
           url: uploadInfo.url,
@@ -387,7 +329,6 @@ class RaffleController {
     } catch (error) {
       logger.error('Erro ao criar rifa:', error);
       
-      // Se erro na criação da rifa, remover arquivo e upload do banco
       if (req.file && fs.existsSync(req.file.path)) {
         fs.unlinkSync(req.file.path);
       }
@@ -395,9 +336,67 @@ class RaffleController {
       if (uploadInfo?.id) {
         dataManager.deleteUpload(uploadInfo.id);
       }
+
+      if (error.message.startsWith('[') || error.message.startsWith('{')) {
+        const validationErrors = JSON.parse(error.message);
+        return ResponseFormatter.badRequest(res, 'Dados inválidos', validationErrors);
+      }
       
       return ResponseFormatter.error(res, 'Erro interno ao criar rifa');
     }
+  });
+
+  // Endpoint para obter categorias disponíveis
+  getCategories = catchAsync(async (req, res) => {
+    return ResponseFormatter.success(res, RAFFLE_CATEGORIES, 'Categorias obtidas com sucesso');
+  });
+
+  // Endpoint para obter tipos de sorteio disponíveis
+  getDrawTypes = catchAsync(async (req, res) => {
+    const drawTypes = {
+      [DRAW_TYPES.SORTEADOR_COM_BR]: {
+        id: DRAW_TYPES.SORTEADOR_COM_BR,
+        name: 'Sorteador.com.br',
+        description: 'Sorteio através da plataforma Sorteador.com.br'
+      },
+      [DRAW_TYPES.LOTERIA_FEDERAL]: {
+        id: DRAW_TYPES.LOTERIA_FEDERAL,
+        name: 'Loteria Federal',
+        description: 'Sorteio baseado na Loteria Federal'
+      },
+      [DRAW_TYPES.ORGANIZADOR]: {
+        id: DRAW_TYPES.ORGANIZADOR,
+        name: 'Diretamente com o organizador',
+        description: 'Sorteio realizado diretamente pelo organizador'
+      },
+      [DRAW_TYPES.SORTEADOR_RIFAUP]: {
+        id: DRAW_TYPES.SORTEADOR_RIFAUP,
+        name: 'Sorteador Rifaup',
+        description: 'Sorteio através do sistema interno Rifaup'
+      }
+    };
+
+    return ResponseFormatter.success(res, drawTypes, 'Tipos de sorteio obtidos com sucesso');
+  });
+
+  // Endpoint para calcular taxa da plataforma
+  calculateFee = catchAsync(async (req, res) => {
+    const { totalTickets, ticketPrice } = req.query;
+    
+    if (!totalTickets || !ticketPrice) {
+      return ResponseFormatter.badRequest(res, 'totalTickets e ticketPrice são obrigatórios');
+    }
+
+    const totalValue = parseFloat(totalTickets) * parseFloat(ticketPrice);
+    const platformFee = dataManager.calculatePlatformFee(totalValue);
+    const estimatedRevenue = totalValue - platformFee;
+
+    return ResponseFormatter.success(res, {
+      totalValue,
+      platformFee,
+      estimatedRevenue,
+      feePercentage: ((platformFee / totalValue) * 100).toFixed(2)
+    }, 'Taxa calculada com sucesso');
   });
 
   // Métodos temporários (implementar depois)

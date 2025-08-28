@@ -101,7 +101,8 @@ class DataManager {
             maintenanceMode: false,
             defaultCommission: 10,
             maxFileSize: 5242880,
-            allowedImageTypes: ["jpg", "jpeg", "png", "webp"]
+            allowedImageTypes: ["jpg", "jpeg", "png", "webp"],
+            maxImagesPerRaffle: 5
           },
           notifications: {
             emailEnabled: true,
@@ -113,10 +114,25 @@ class DataManager {
             creditCardEnabled: false,
             bankTransferEnabled: true,
             autoApprove: false
+          },
+          raffle: {
+            categories: {
+              "ELECTRONICS": "Eletrônicos",
+              "VEHICLES": "Veículos", 
+              "JEWELRY": "Joias",
+              "APPLIANCES": "Eletrodomésticos",
+              "MONEY": "Dinheiro",
+              "OTHERS": "Outros"
+            },
+            numberingModels: {
+              "sequential": "Sequencial (+1, +5, +25, +50)",
+              "hundreds": "Centenas (000, 001, 002...)",
+              "custom": "Personalizado"
+            }
           }
         }
       },
-      'uploads.json': { uploads: [] },
+      'uploads.json': { uploads: [] }
     };
 
     return defaults[filename] || {};
@@ -234,13 +250,83 @@ class DataManager {
       if (!data.raffles) {
         data.raffles = [];
       }
-      data.raffles.push(raffleData);
+
+      // Estrutura simplificada baseada na interface
+      const completeRaffleData = {
+        id: raffleData.id,
+        title: raffleData.title,
+        description: raffleData.description,
+        campaignImages: raffleData.campaignImages || [],
+        publicContactPhone: raffleData.publicContactPhone,
+        category: raffleData.category,
+        totalTickets: raffleData.totalTickets,
+        soldTickets: 0,
+        ticketPrice: raffleData.ticketPrice,
+        
+        // Configurações de sorteio simplificadas
+        drawType: raffleData.drawType || 'sorteador_com_br', // 'sorteador_com_br', 'loteria_federal', 'organizador', 'sorteador_rifaup'
+        drawDate: raffleData.drawDate || null, // Data e hora do sorteio (opcional)
+        
+        // Prêmios
+        prizes: raffleData.prizes || [],
+        
+        // Status e controle
+        status: raffleData.status || 'pending',
+        owner: raffleData.owner,
+        createdAt: raffleData.createdAt || new Date().toISOString(),
+        updatedAt: raffleData.updatedAt || new Date().toISOString(),
+        
+        // Configurações simplificadas
+        settings: {
+          minTicketsPerPurchase: raffleData.settings?.minTicketsPerPurchase || 1,
+          maxTicketsPerPurchase: raffleData.settings?.maxTicketsPerPurchase || 199,
+          maxTicketsPerPerson: raffleData.settings?.maxTicketsPerPerson || 199,
+          showBuyersList: raffleData.settings?.showBuyersList !== false,
+          autoApprovePayments: raffleData.settings?.autoApprovePayments === true,
+          ...raffleData.settings
+        },
+        
+        // Campos de resultado do sorteio
+        winner: null,
+        winnerTicket: null,
+        completedAt: null,
+        
+        // Taxa da plataforma (baseada no valor)
+        platformFee: this.calculatePlatformFee(raffleData.totalTickets * raffleData.ticketPrice),
+        estimatedRevenue: (raffleData.totalTickets * raffleData.ticketPrice) - this.calculatePlatformFee(raffleData.totalTickets * raffleData.ticketPrice)
+      };
+      
+      data.raffles.push(completeRaffleData);
       this.writeData('raffles.json', data);
-      return raffleData;
+      return completeRaffleData;
     } catch (error) {
       console.error('Erro ao criar raffle:', error);
       throw error;
     }
+  }
+
+  // Calcular taxa da plataforma baseada na tabela mostrada na interface
+  calculatePlatformFee(totalValue) {
+    if (totalValue <= 100) return 6;
+    if (totalValue <= 250) return 17;
+    if (totalValue <= 450) return 27;
+    if (totalValue <= 750) return 37;
+    if (totalValue <= 1000) return 47;
+    if (totalValue <= 2000) return 67;
+    if (totalValue <= 4000) return 77;
+    if (totalValue <= 7000) return 97;
+    if (totalValue <= 10000) return 147;
+    if (totalValue <= 15000) return 197;
+    if (totalValue <= 20000) return 247;
+    if (totalValue <= 30000) return 347;
+    if (totalValue <= 50000) return 697;
+    if (totalValue <= 70000) return 797;
+    if (totalValue <= 100000) return 897;
+    if (totalValue <= 200000) return 1297;
+    if (totalValue <= 300000) return 1497;
+    if (totalValue <= 500000) return 1697;
+    if (totalValue <= 700000) return 1897;
+    return 1997; // Acima de R$ 700.000
   }
 
   updateRaffle(id, raffleData) {

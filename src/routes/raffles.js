@@ -47,18 +47,18 @@ const uploadRaffleImage = multer({
 
 // Rotas públicas (sem autenticação)
 router.get('/', raffleController.getRaffles);
+router.get('/categories', raffleController.getCategories);
+router.get('/draw-types', raffleController.getDrawTypes);
+router.get('/calculate-fee', raffleController.calculateFee);
 router.get('/:id', raffleController.getRaffleById);
 
 // Rotas autenticadas
-router.use(auth); // Aplicar autenticação para todas as rotas abaixo
+router.use(auth);
 
 // Rotas do usuário
 router.get('/user/my-raffles', raffleController.getMyRaffles);
 router.post('/', raffleController.createRaffle);
-
-// Nova rota para criar rifa com imagem
 router.post('/with-image', uploadRaffleImage.single('image'), raffleController.createRaffleWithImage);
-
 router.put('/:id', raffleController.updateRaffle);
 router.delete('/:id', raffleController.deleteRaffle);
 router.post('/:id/draw', raffleController.drawRaffle);

@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const { VALIDATION_RULES } = require('../config/constants');
+const { VALIDATION_RULES, RAFFLE_CATEGORIES, DRAW_TYPES } = require('../config/constants');
 
 const raffleSchemas = {
   createRaffle: Joi.object({
@@ -8,51 +8,118 @@ const raffleSchemas = {
       .max(VALIDATION_RULES.TITLE_MAX_LENGTH)
       .required()
       .messages({
-        'string.min': `Título deve ter pelo menos ${VALIDATION_RULES.TITLE_MIN_LENGTH} caracteres`,
-        'string.max': `Título deve ter no máximo ${VALIDATION_RULES.TITLE_MAX_LENGTH} caracteres`,
-        'any.required': 'Título é obrigatório'
+        'string.min': `Nome da campanha deve ter pelo menos ${VALIDATION_RULES.TITLE_MIN_LENGTH} caracteres`,
+        'string.max': `Nome da campanha deve ter no máximo ${VALIDATION_RULES.TITLE_MAX_LENGTH} caracteres`,
+        'any.required': 'Nome da campanha é obrigatório'
       }),
+    
     description: Joi.string()
       .min(VALIDATION_RULES.DESCRIPTION_MIN_LENGTH)
       .max(VALIDATION_RULES.DESCRIPTION_MAX_LENGTH)
-      .required()
+      .optional()
       .messages({
         'string.min': `Descrição deve ter pelo menos ${VALIDATION_RULES.DESCRIPTION_MIN_LENGTH} caracteres`,
-        'string.max': `Descrição deve ter no máximo ${VALIDATION_RULES.DESCRIPTION_MAX_LENGTH} caracteres`,
-        'any.required': 'Descrição é obrigatória'
+        'string.max': `Descrição deve ter no máximo ${VALIDATION_RULES.DESCRIPTION_MAX_LENGTH} caracteres`
       }),
-    ticketPrice: Joi.number()
-      .positive()
-      .precision(2)
-      .required()
+
+    // Imagens da campanha
+    campaignImages: Joi.array()
+      .items(Joi.string().uri())
+      .max(5)
+      .optional(),
+
+    // Telefone público para contato
+    publicContactPhone: Joi.string()
+      .pattern(/^\(\d{2}\)\s\d{4,5}-\d{4}$/)
+      .optional()
       .messages({
-        'number.positive': 'Preço do ticket deve ser positivo',
-        'any.required': 'Preço do ticket é obrigatório'
+        'string.pattern.base': 'Telefone deve estar no formato (11) 99999-9999'
       }),
+
+    // Categoria da rifa
+    category: Joi.string()
+      .valid(...Object.keys(RAFFLE_CATEGORIES))
+      .optional()
+      .messages({
+        'any.only': 'Categoria inválida'
+      }),
+
+    // Quantidade de bilhetes
     totalTickets: Joi.number()
       .integer()
       .min(VALIDATION_RULES.MIN_TICKETS)
       .max(VALIDATION_RULES.MAX_TICKETS)
       .required()
       .messages({
-        'number.integer': 'Total de tickets deve ser um número inteiro',
-        'number.min': `Mínimo de ${VALIDATION_RULES.MIN_TICKETS} tickets`,
-        'number.max': `Máximo de ${VALIDATION_RULES.MAX_TICKETS} tickets`,
-        'any.required': 'Total de tickets é obrigatório'
+        'number.integer': 'Quantidade de bilhetes deve ser um número inteiro',
+        'number.min': `Mínimo de ${VALIDATION_RULES.MIN_TICKETS} bilhetes`,
+        'number.max': `Máximo de ${VALIDATION_RULES.MAX_TICKETS} bilhetes`,
+        'any.required': 'Quantidade de bilhetes é obrigatória'
       }),
-    endDate: Joi.date()
-      .iso()
-      .greater('now')
+
+    // Valor por bilhete
+    ticketPrice: Joi.number()
+      .positive()
+      .min(VALIDATION_RULES.MIN_TICKET_PRICE)
+      .max(VALIDATION_RULES.MAX_TICKET_PRICE)
+      .precision(2)
       .required()
       .messages({
-        'date.greater': 'Data de fim deve ser futura',
-        'any.required': 'Data de fim é obrigatória'
+        'number.positive': 'Valor do bilhete deve ser positivo',
+        'number.min': `Valor mínimo: R$ ${VALIDATION_RULES.MIN_TICKET_PRICE}`,
+        'number.max': `Valor máximo: R$ ${VALIDATION_RULES.MAX_TICKET_PRICE}`,
+        'any.required': 'Valor do bilhete é obrigatório'
       }),
-    image: Joi.string().uri().optional(),
+
+    // Tipo de sorteio
+    drawType: Joi.string()
+      .valid(...Object.values(DRAW_TYPES))
+      .default(DRAW_TYPES.SORTEADOR_COM_BR)
+      .messages({
+        'any.only': 'Tipo de sorteio inválido'
+      }),
+
+    // Data e hora do sorteio (opcional)
+    drawDate: Joi.date()
+      .iso()
+      .greater('now')
+      .optional()
+      .messages({
+        'date.greater': 'Data do sorteio deve ser no futuro'
+      }),
+
+    // Prêmios
+    prizes: Joi.array()
+      .items(
+        Joi.object({
+          id: Joi.string().required(),
+          name: Joi.string().required().messages({
+            'any.required': 'Nome do prêmio é obrigatório'
+          }),
+          description: Joi.string().optional(),
+          position: Joi.number().integer().min(1).required(),
+          image: Joi.string().uri().optional()
+        })
+      )
+      .min(1)
+      .optional(),
+
+    // Configurações da rifa
     settings: Joi.object({
-      maxTicketsPerPerson: Joi.number().integer().min(1).optional(),
-      allowComments: Joi.boolean().optional(),
-      autoApprovePayments: Joi.boolean().optional()
+      minTicketsPerPurchase: Joi.number()
+        .integer()
+        .min(VALIDATION_RULES.MIN_TICKETS_PER_PURCHASE)
+        .default(1),
+      maxTicketsPerPurchase: Joi.number()
+        .integer()
+        .max(VALIDATION_RULES.MAX_TICKETS_PER_PURCHASE)
+        .default(199),
+      maxTicketsPerPerson: Joi.number()
+        .integer()
+        .max(VALIDATION_RULES.MAX_TICKETS_PER_PERSON)
+        .default(199),
+      showBuyersList: Joi.boolean().default(true),
+      autoApprovePayments: Joi.boolean().default(false)
     }).optional()
   }),
 
@@ -61,21 +128,47 @@ const raffleSchemas = {
       .min(VALIDATION_RULES.TITLE_MIN_LENGTH)
       .max(VALIDATION_RULES.TITLE_MAX_LENGTH)
       .optional(),
+    
     description: Joi.string()
       .min(VALIDATION_RULES.DESCRIPTION_MIN_LENGTH)
       .max(VALIDATION_RULES.DESCRIPTION_MAX_LENGTH)
       .optional(),
-    ticketPrice: Joi.number().positive().precision(2).optional(),
-    totalTickets: Joi.number()
-      .integer()
-      .min(VALIDATION_RULES.MIN_TICKETS)
-      .max(VALIDATION_RULES.MAX_TICKETS)
+
+    campaignImages: Joi.array()
+      .items(Joi.string().uri())
+      .max(5)
       .optional(),
-    endDate: Joi.date().iso().greater('now').optional(),
-    image: Joi.string().uri().optional(),
+
+    publicContactPhone: Joi.string()
+      .pattern(/^\(\d{2}\)\s\d{4,5}-\d{4}$/)
+      .optional(),
+
+    category: Joi.string()
+      .valid(...Object.keys(RAFFLE_CATEGORIES))
+      .optional(),
+
+    drawDate: Joi.date()
+      .iso()
+      .greater('now')
+      .optional(),
+
+    prizes: Joi.array()
+      .items(
+        Joi.object({
+          id: Joi.string().required(),
+          name: Joi.string().required(),
+          description: Joi.string().optional(),
+          position: Joi.number().integer().min(1).required(),
+          image: Joi.string().uri().optional()
+        })
+      )
+      .optional(),
+
     settings: Joi.object({
-      maxTicketsPerPerson: Joi.number().integer().min(1).optional(),
-      allowComments: Joi.boolean().optional(),
+      minTicketsPerPurchase: Joi.number().integer().min(1).optional(),
+      maxTicketsPerPurchase: Joi.number().integer().max(199).optional(),
+      maxTicketsPerPerson: Joi.number().integer().max(199).optional(),
+      showBuyersList: Joi.boolean().optional(),
       autoApprovePayments: Joi.boolean().optional()
     }).optional()
   }),
