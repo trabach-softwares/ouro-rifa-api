@@ -148,9 +148,23 @@ class ReportController {
         return createErrorResponse(res, 'Usuário não autorizado', 401);
       }
 
-      const { startDate, endDate, raffleId } = req.query;
+      const { 
+        startDate, 
+        endDate, 
+        raffleId, 
+        status = 'completed',
+        page = 1, 
+        limit = 20,
+        sortBy = 'processedAt',
+        sortOrder = 'desc'
+      } = req.query;
       
-      let payments = dataManager.getPayments().filter(p => p.status === 'completed');
+      let payments = dataManager.getPayments();
+      
+      // Filtrar por status
+      if (status !== 'all') {
+        payments = payments.filter(p => p.status === status);
+      }
       
       // Se não for super admin, filtrar apenas dados do usuário
       if (req.user.role !== 'super_admin') {
@@ -160,10 +174,16 @@ class ReportController {
       
       // Filtrar por data
       if (startDate) {
-        payments = payments.filter(p => p.processedAt && new Date(p.processedAt) >= new Date(startDate));
+        payments = payments.filter(p => {
+          const paymentDate = p.processedAt || p.createdAt;
+          return paymentDate && new Date(paymentDate) >= new Date(startDate);
+        });
       }
       if (endDate) {
-        payments = payments.filter(p => p.processedAt && new Date(p.processedAt) <= new Date(endDate));
+        payments = payments.filter(p => {
+          const paymentDate = p.processedAt || p.createdAt;
+          return paymentDate && new Date(paymentDate) <= new Date(endDate);
+        });
       }
       
       // Filtrar por rifa
@@ -181,44 +201,192 @@ class ReportController {
           id: payment.id,
           amount: payment.amount || 0,
           method: payment.method || 'unknown',
+          status: payment.status,
+          createdAt: payment.createdAt,
           processedAt: payment.processedAt,
+          transactionId: payment.transactionId,
           raffle: raffle ? {
             id: raffle.id,
-            title: raffle.title
+            title: raffle.title,
+            category: raffle.category,
+            ticketPrice: raffle.ticketPrice
           } : null,
-          user: user ? {
+          customer: user ? {
             id: user.id,
             name: user.name,
-            email: user.email
+            email: user.email,
+            phone: user.phone
           } : null,
           ticket: ticket ? {
             id: ticket.id,
             quantity: ticket.quantity,
-            ticketNumbers: ticket.ticketNumbers
+            ticketNumbers: ticket.ticketNumbers,
+            totalAmount: ticket.totalAmount
           } : null
         };
       });
 
+      // Ordenação
+      detailedPayments.sort((a, b) => {
+        const aValue = a[sortBy] || '';
+        const bValue = b[sortBy] || '';
+        
+        if (sortOrder === 'desc') {
+          return bValue > aValue ? 1 : -1;
+        }
+        return aValue > bValue ? 1 : -1;
+      });
+
+      // Paginação
+      const startIndex = (parseInt(page) - 1) * parseInt(limit);
+      const endIndex = startIndex + parseInt(limit);
+      const paginatedPayments = detailedPayments.slice(startIndex, endIndex);
+
       // Estatísticas do período
-      const totalSales = payments.length;
-      const totalRevenue = payments.reduce((sum, p) => sum + (p.amount || 0), 0);
+      const completedPayments = payments.filter(p => p.status === 'completed');
+      const pendingPayments = payments.filter(p => p.status === 'pending');
+      const failedPayments = payments.filter(p => p.status === 'failed');
+      
+      const totalSales = completedPayments.length;
+      const totalRevenue = completedPayments.reduce((sum, p) => sum + (p.amount || 0), 0);
+      const pendingRevenue = pendingPayments.reduce((sum, p) => sum + (p.amount || 0), 0);
       const averageTicketValue = totalSales > 0 ? totalRevenue / totalSales : 0;
       
       // Vendas por método de pagamento
-      const paymentMethods = payments.reduce((acc, p) => {
+      const paymentMethods = completedPayments.reduce((acc, p) => {
         const method = p.method || 'unknown';
-        acc[method] = (acc[method] || 0) + 1;
+        acc[method] = {
+          count: (acc[method]?.count || 0) + 1,
+          revenue: (acc[method]?.revenue || 0) + (p.amount || 0)
+        };
         return acc;
       }, {});
+
+      // Vendas por rifa (top 10)
+      const salesByRaffle = {};
+      completedPayments.forEach(payment => {
+        const raffleId = payment.raffle;
+        const raffle = dataManager.getRaffleById(raffleId);
+        
+        if (raffle) {
+          if (!salesByRaffle[raffleId]) {
+            salesByRaffle[raffleId] = {
+              id: raffle.id,
+              title: raffle.title,
+              count: 0,
+              revenue: 0,
+              tickets: 0
+            };
+          }
+          
+          salesByRaffle[raffleId].count += 1;
+          salesByRaffle[raffleId].revenue += payment.amount || 0;
+          
+          const ticket = dataManager.getTicketById(payment.ticket);
+          if (ticket) {
+            salesByRaffle[raffleId].tickets += ticket.quantity || 0;
+          }
+        }
+      });
+
+      const topRaffles = Object.values(salesByRaffle)
+        .sort((a, b) => b.revenue - a.revenue)
+        .slice(0, 10);
+
+      // Vendas por dia (últimos 30 dias para gráfico)
+      const thirtyDaysAgo = new Date();
+      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+      
+      const dailySales = {};
+      for (let i = 0; i < 30; i++) {
+        const date = new Date(thirtyDaysAgo);
+        date.setDate(date.getDate() + i);
+        const dateStr = date.toISOString().split('T')[0];
+        dailySales[dateStr] = {
+          date: dateStr,
+          sales: 0,
+          revenue: 0,
+          tickets: 0
+        };
+      }
+
+      completedPayments
+        .filter(p => {
+          const paymentDate = p.processedAt || p.createdAt;
+          return paymentDate && new Date(paymentDate) >= thirtyDaysAgo;
+        })
+        .forEach(payment => {
+          const paymentDate = payment.processedAt || payment.createdAt;
+          const dateStr = paymentDate.split('T')[0];
+          
+          if (dailySales[dateStr]) {
+            dailySales[dateStr].sales += 1;
+            dailySales[dateStr].revenue += payment.amount || 0;
+            
+            const ticket = dataManager.getTicketById(payment.ticket);
+            if (ticket) {
+              dailySales[dateStr].tickets += ticket.quantity || 0;
+            }
+          }
+        });
+
+      const salesChart = Object.values(dailySales);
+
+      // Clientes que mais compraram
+      const customerStats = {};
+      completedPayments.forEach(payment => {
+        const userId = payment.user;
+        const user = dataManager.getUserById(userId);
+        
+        if (user) {
+          if (!customerStats[userId]) {
+            customerStats[userId] = {
+              id: user.id,
+              name: user.name,
+              email: user.email,
+              purchases: 0,
+              totalSpent: 0,
+              tickets: 0
+            };
+          }
+          
+          customerStats[userId].purchases += 1;
+          customerStats[userId].totalSpent += payment.amount || 0;
+          
+          const ticket = dataManager.getTicketById(payment.ticket);
+          if (ticket) {
+            customerStats[userId].tickets += ticket.quantity || 0;
+          }
+        }
+      });
+
+      const topCustomers = Object.values(customerStats)
+        .sort((a, b) => b.totalSpent - a.totalSpent)
+        .slice(0, 10);
 
       return createSuccessResponse(res, {
         summary: {
           totalSales,
           totalRevenue,
+          pendingRevenue,
           averageTicketValue,
-          paymentMethods
+          pendingCount: pendingPayments.length,
+          failedCount: failedPayments.length,
+          conversionRate: payments.length > 0 ? (totalSales / payments.length) * 100 : 0
         },
-        sales: detailedPayments
+        paymentMethods,
+        topRaffles,
+        topCustomers,
+        salesChart,
+        sales: paginatedPayments,
+        pagination: {
+          currentPage: parseInt(page),
+          totalPages: Math.ceil(detailedPayments.length / parseInt(limit)),
+          totalItems: detailedPayments.length,
+          limit: parseInt(limit),
+          hasNext: endIndex < detailedPayments.length,
+          hasPrev: startIndex > 0
+        }
       }, 'Relatório de vendas gerado com sucesso');
     } catch (error) {
       logger.error('Erro ao gerar relatório de vendas:', error);

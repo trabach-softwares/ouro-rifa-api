@@ -2697,3 +2697,667 @@ Error: Rota /api/raffles/raffle_1756345833112_hlq61s2xw/status não encontrada
 2025-08-29 16:18:00 [INFO]: Servidor rodando na porta 3000
 2025-08-29 16:18:02 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
 2025-08-29 16:18:02 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:19:25 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:19:29 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:19:34 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:19:34 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:19:45 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 16:19:45 [INFO]: Status da rifa raffle_1756344348899_v7shl9h1l alterado de active para cancelled por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:19:45 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:19:46 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:19:47 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:19:49 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:19:51 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:19:52 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:19:54 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:24:19 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:24:21 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:24:22 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:24:24 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:24:27 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:24:29 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:25:11 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:25:13 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:26:13 [INFO]: PUT /api/raffles/raffle_1756345833112_hlq61s2xw/status - ::1
+2025-08-29 16:26:13 [INFO]: Status da rifa raffle_1756345833112_hlq61s2xw alterado de active para paused por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:26:13 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:26:14 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:33:43 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:33:45 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:33:47 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:33:49 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:33:58 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 16:33:58 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:34:02 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:37:47 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:37:48 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:37:56 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:37:58 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:38:01 [INFO]: GET /api/raffles/raffle_1756345833112_hlq61s2xw - ::1
+2025-08-29 16:38:08 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:38:09 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:38:15 [INFO]: GET /api/raffles/raffle_1756345833112_hlq61s2xw - ::1
+2025-08-29 16:38:27 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:38:30 [INFO]: GET /api/raffles/raffle_1756345833112_hlq61s2xw - ::1
+2025-08-29 16:40:16 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:40:18 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:40:20 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:41:14 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:41:21 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:41:22 [INFO]: GET /api/raffles/raffle_1756345833112_hlq61s2xw - ::1
+2025-08-29 16:41:22 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:42:05 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 16:42:05 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-29 16:42:05 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:42:41 [INFO]: GET /api/raffles/raffle_1756345833112_hlq61s2xw - ::1
+2025-08-29 16:42:41 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:43:19 [INFO]: GET /api/raffles/raffle_1756345833112_hlq61s2xw - ::1
+2025-08-29 16:43:19 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:43:31 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:43:32 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:43:33 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:43:34 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:43:40 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:43:56 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:44:10 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:46:12 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:46:13 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:46:14 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:46:15 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:46:20 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:46:22 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:46:23 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:46:26 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:46:27 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:46:31 [INFO]: PUT /api/raffles/raffle_1756345833112_hlq61s2xw/status - ::1
+2025-08-29 16:46:31 [INFO]: Status da rifa raffle_1756345833112_hlq61s2xw alterado de paused para active por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:46:32 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:46:35 [INFO]: GET /api/raffles/raffle_1756345833112_hlq61s2xw - ::1
+2025-08-29 16:46:35 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:46:47 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:46:47 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:46:49 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:46:53 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:48:24 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:48:26 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:48:27 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:48:33 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:48:39 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:49:39 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:49:41 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:49:44 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:52:13 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:52:35 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:52:49 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:56:13 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:56:15 [INFO]: GET /api/payments/my - ::1
+2025-08-29 16:56:15 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'id') {"url":"/api/payments/my?page=1&limit=10&status=completed","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:46:71
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+2025-08-29 16:56:27 [INFO]: GET /api/payments/my - ::1
+2025-08-29 16:56:27 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'id') {"url":"/api/payments/my?page=1&limit=10","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:46:71
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+2025-08-29 16:56:56 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:57:02 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:57:16 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 17:02:43 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:02:43 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:02:44 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:02:44 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:02:58 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:02:58 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:02:59 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:02:59 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:04:31 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:04:31 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:04:34 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:04:34 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:04:51 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 17:04:51 [ERROR]: Global Error Handler: Rota /api/reports/sales?page=1&limit=20&sort=createdAt&order=desc não encontrada {"url":"/api/reports/sales?page=1&limit=20&sort=createdAt&order=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/reports/sales?page=1&limit=20&sort=createdAt&order=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:19:34 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 17:19:34 [ERROR]: Global Error Handler: Rota /api/auth/profile não encontrada {"url":"/api/auth/profile","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/profile não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:19:34 [INFO]: GET /api/api/tickets/sales/list - ::1
+2025-08-29 17:19:34 [ERROR]: Global Error Handler: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:19:34 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 17:19:34 [ERROR]: Global Error Handler: Rota /api/raffles/user/my-raffles?limit=100 não encontrada {"url":"/api/raffles/user/my-raffles?limit=100","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/raffles/user/my-raffles?limit=100 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:19:42 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 17:19:42 [ERROR]: Global Error Handler: Rota /api/auth/profile não encontrada {"url":"/api/auth/profile","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/profile não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:19:42 [INFO]: GET /api/api/tickets/sales/list - ::1
+2025-08-29 17:19:42 [ERROR]: Global Error Handler: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:19:42 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 17:19:42 [ERROR]: Global Error Handler: Rota /api/raffles/user/my-raffles?limit=100 não encontrada {"url":"/api/raffles/user/my-raffles?limit=100","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/raffles/user/my-raffles?limit=100 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:20:18 [INFO]: GET /api/api/tickets/sales/list - ::1
+2025-08-29 17:20:18 [ERROR]: Global Error Handler: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:20:18 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 17:20:18 [ERROR]: Global Error Handler: Rota /api/raffles/user/my-raffles?limit=100 não encontrada {"url":"/api/raffles/user/my-raffles?limit=100","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/raffles/user/my-raffles?limit=100 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:20:23 [INFO]: GET /api/api/tickets/sales/list - ::1
+2025-08-29 17:20:23 [ERROR]: Global Error Handler: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:20:26 [INFO]: GET /api/api/tickets/sales/list - ::1
+2025-08-29 17:20:26 [ERROR]: Global Error Handler: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:20:30 [INFO]: GET /api/api/tickets/sales/list - ::1
+2025-08-29 17:20:30 [ERROR]: Global Error Handler: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:20:58 [INFO]: GET /api/api/tickets/sales/list - ::1
+2025-08-29 17:20:58 [ERROR]: Global Error Handler: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:21:13 [INFO]: GET /api/tickets/sales/list - ::1
+2025-08-29 17:21:13 [ERROR]: Global Error Handler: Rota /api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/tickets/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:22:06 [INFO]: GET /api/sales/list - ::1
+2025-08-29 17:22:06 [ERROR]: Global Error Handler: Rota /api/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada {"url":"/api/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/sales/list?page=1&limit=20&sortBy=createdAt&sortOrder=desc não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:22:21 [INFO]: GET /api/reports/my/sales - ::1
+2025-08-29 17:22:21 [ERROR]: Global Error Handler: Rota /api/reports/my/sales?startDate=2024-01-01&endDate=2024-12-31 não encontrada {"url":"/api/reports/my/sales?startDate=2024-01-01&endDate=2024-12-31","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota /api/reports/my/sales?startDate=2024-01-01&endDate=2024-12-31 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:25:17 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:25:17 [ERROR]: Global Error Handler: Rota /api/auth/login não encontrada {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota /api/auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:25:33 [INFO]: POST //auth/login - ::1
+2025-08-29 17:25:33 [ERROR]: Global Error Handler: Rota //auth/login não encontrada {"url":"//auth/login","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota //auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:25:40 [INFO]: POST /auth/login - ::1
+2025-08-29 17:25:40 [ERROR]: Global Error Handler: Rota /auth/login não encontrada {"url":"/auth/login","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota /auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:25:54 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:25:54 [ERROR]: Global Error Handler: Rota /api/auth/login não encontrada {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota /api/auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:26:08 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:26:08 [ERROR]: Global Error Handler: Rota /api/auth/login não encontrada {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota /api/auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:26:39 [INFO]: POST /api/auth/logout - ::1
+2025-08-29 17:26:39 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:26:43 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:26:43 [ERROR]: Global Error Handler: Rota /api/auth/login não encontrada {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:28:25 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:16:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:28:25 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:28:26 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:16:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:28:27 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:28:34 [ERROR]: Erro ao carregar rotas: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/auth.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:28:34 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:28:36 [ERROR]: Erro ao carregar rotas: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/auth.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:28:36 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:28:43 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:28:43 [ERROR]: Global Error Handler: Rota /api/auth/login não encontrada {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:29:20 [ERROR]: Erro ao carregar rotas: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/auth.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:29:20 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:29:27 [ERROR]: Erro ao carregar rotas: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/auth.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:29:27 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:29:31 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:29:31 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:29:33 [ERROR]: Erro ao carregar rotas: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as get] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js:12:8)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+2025-08-29 17:29:33 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:29:38 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:29:40 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:29:40 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-29 17:29:41 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:29:42 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-29 17:29:42 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 17:29:48 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:29:48 [ERROR]: Global Error Handler: Email ou senha incorretos {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Email ou senha incorretos
+    at UserService.login (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/userService.js:98:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/authController.js:41:45
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at validateLogin (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/userValidator.js:131:7)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-08-29 17:30:13 [INFO]: POST /api/auth/login - ::1
+2025-08-29 17:30:13 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-08-29 17:30:14 [INFO]: Servidor rodando na porta 3000
+2025-08-29 17:30:32 [INFO]: GET /api/tickets - ::1
+2025-08-29 17:30:32 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'id') {"url":"/api/tickets?page=1&limit=10","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:22:66
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:175:3)
+2025-08-29 17:30:42 [INFO]: GET /api/tickets - ::1
+2025-08-29 17:30:42 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'id') {"url":"/api/tickets?page=1&limit=10","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:22:66
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:175:3)

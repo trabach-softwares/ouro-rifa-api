@@ -78,11 +78,11 @@ class RaffleController {
       return ResponseFormatter.notFound(res, ERROR_MESSAGES.RAFFLE_NOT_FOUND);
     }
 
-    // Se a rifa está ativa, qualquer um pode ver
-    // Se não está ativa, verificar se o usuário está autenticado e é dono ou admin
-    if (raffle.status !== 'active') {
+    // Apenas rifas canceladas são restritas para visualização
+    // Rifas pending, paused, completed e active podem ser vistas publicamente
+    if (raffle.status === 'cancelled') {
       if (!req.user || (req.user.role !== 'super_admin' && raffle.owner !== req.user.id)) {
-        return ResponseFormatter.forbidden(res, 'Esta rifa não está disponível para visualização.');
+        return ResponseFormatter.forbidden(res, 'Esta rifa foi cancelada e não está disponível para visualização.');
       }
     }
     

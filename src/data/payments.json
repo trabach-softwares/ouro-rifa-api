@@ -1,3 +1,58 @@
 {
-  "payments": []
+  "payments": [
+    {
+      "id": "payment_1756500000000_abc123def",
+      "ticket": "ticket_1756499900000_xyz789ghi",
+      "user": "user_1756340056197_4dle2lolu",
+      "raffle": "raffle_1756345833112_hlq61s2xw",
+      "amount": 156.0,
+      "method": "pix",
+      "status": "paid",
+      "processedAt": "2025-08-29T20:15:30.123Z",
+      "transactionId": "PIX123456789",
+      "pixData": {
+        "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+        "pixKey": "trabachjonathan@gmail.com",
+        "identifier": "RIFA2xww789g",
+        "expiresAt": "2025-08-29T20:45:30.123Z"
+      },
+      "createdAt": "2025-08-29T20:00:30.123Z"
+    },
+    {
+      "id": "payment_1756500100000_def456ghi",
+      "ticket": "ticket_1756500000000_abc123xyz",
+      "user": "user_1756340056197_4dle2lolu",
+      "raffle": "raffle_1756344348899_v7shl9h1l",
+      "amount": 50.0,
+      "method": "pix",
+      "status": "pending",
+      "processedAt": null,
+      "transactionId": null,
+      "pixData": {
+        "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+        "pixKey": "trabachjonathan@gmail.com",
+        "identifier": "RIFA8899xyz1",
+        "expiresAt": "2025-08-29T21:15:45.567Z"
+      },
+      "createdAt": "2025-08-29T20:45:45.567Z"
+    },
+    {
+      "id": "payment_1756500200000_ghi789jkl",
+      "ticket": "ticket_1756500100000_def456abc",
+      "user": "user_1756340056197_4dle2lolu", 
+      "raffle": "raffle_1756345833112_hlq61s2xw",
+      "amount": 104.0,
+      "method": "pix",
+      "status": "failed",
+      "processedAt": null,
+      "transactionId": null,
+      "pixData": {
+        "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+        "pixKey": "trabachjonathan@gmail.com",
+        "identifier": "RIFA2xww456a",
+        "expiresAt": "2025-08-29T21:30:20.890Z"
+      },
+      "createdAt": "2025-08-29T21:00:20.890Z"
+    }
+  ]
 }

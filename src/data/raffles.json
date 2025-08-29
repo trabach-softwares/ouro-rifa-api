@@ -11,10 +11,10 @@
       "drawType": "sorteador_com_br",
       "drawDate": null,
       "prizes": [],
-      "status": "active",
+      "status": "cancelled",
       "owner": "user_1756340056197_4dle2lolu",
       "createdAt": "2025-08-28T01:25:48.899Z",
-      "updatedAt": "2025-08-29T19:17:59.826Z",
+      "updatedAt": "2025-08-29T19:19:45.778Z",
       "settings": {
         "minTicketsPerPurchase": 1,
         "maxTicketsPerPurchase": 199,
@@ -53,7 +53,7 @@
       "status": "active",
       "owner": "user_1756340056197_4dle2lolu",
       "createdAt": "2025-08-28T01:50:33.112Z",
-      "updatedAt": "2025-08-29T19:17:20.523Z",
+      "updatedAt": "2025-08-29T19:46:31.153Z",
       "settings": {
         "minTicketsPerPurchase": 1,
         "maxTicketsPerPurchase": 199,
