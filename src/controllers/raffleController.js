@@ -9,6 +9,7 @@ const { logger } = require('../utils/logger');
 const { catchAsync } = require('../middleware/errorHandler');
 const RaffleValidator = require('../validators/raffleValidator');
 const { RAFFLE_CATEGORIES, DRAW_TYPES } = require('../config/constants');
+const RaffleService = require('../services/raffleService');
 
 class RaffleController {
   constructor() {
@@ -23,6 +24,9 @@ class RaffleController {
     this.deleteRaffle = this.deleteRaffle.bind(this);
     this.drawRaffle = this.drawRaffle.bind(this);
     this.updateRaffleStatus = this.updateRaffleStatus.bind(this);
+    
+    // Inicializar o service
+    this.raffleService = new RaffleService(dataManager);
   }
 
   // Rifas públicas (não autenticadas) - apenas rifas ativas
@@ -399,21 +403,232 @@ class RaffleController {
     }, 'Taxa calculada com sucesso');
   });
 
-  // Métodos temporários (implementar depois)
+  // Atualizar rifa
   updateRaffle = catchAsync(async (req, res) => {
-    return ResponseFormatter.success(res, null, 'Atualizar rifa - a implementar');
+    try {
+      const { id } = req.params;
+      
+      // Verificar se a rifa existe
+      const raffle = dataManager.getRaffleById(id);
+      if (!raffle) {
+        return ResponseFormatter.notFound(res, 'Rifa não encontrada');
+      }
+
+      // Verificar propriedade
+      if (raffle.owner !== req.user.id && req.user.role !== 'super_admin') {
+        return ResponseFormatter.forbidden(res, 'Sem permissão para atualizar esta rifa');
+      }
+
+      // Validar dados de atualização
+      const validatedData = RaffleValidator.validateUpdate(req.body);
+
+      // Verificar se pode atualizar campos sensíveis
+      const restrictedFields = ['totalTickets', 'ticketPrice'];
+      if (raffle.status === 'active' && raffle.soldTickets > 0) {
+        for (const field of restrictedFields) {
+          if (validatedData[field] !== undefined) {
+            return ResponseFormatter.badRequest(res, `Não é possível alterar ${field} em rifa ativa com tickets vendidos`);
+          }
+        }
+      }
+
+      // Atualizar dados
+      const updateData = {
+        ...validatedData,
+        updatedAt: new Date().toISOString()
+      };
+
+      const updatedRaffle = dataManager.updateRaffle(id, updateData);
+
+      if (!updatedRaffle) {
+        return ResponseFormatter.error(res, 'Erro ao atualizar rifa');
+      }
+
+      logger.info(`Rifa atualizada: ${id} por usuário ${req.user.id}`);
+
+      return ResponseFormatter.success(res, updatedRaffle, 'Rifa atualizada com sucesso');
+    } catch (error) {
+      if (error.message.startsWith('[') || error.message.startsWith('{')) {
+        const validationErrors = JSON.parse(error.message);
+        return ResponseFormatter.badRequest(res, 'Dados inválidos', validationErrors);
+      }
+      
+      logger.error('Erro ao atualizar rifa:', error);
+      return ResponseFormatter.error(res, 'Erro interno ao atualizar rifa');
+    }
   });
 
+  // Excluir rifa
   deleteRaffle = catchAsync(async (req, res) => {
-    return ResponseFormatter.success(res, null, 'Excluir rifa - a implementar');
+    const { id } = req.params;
+    
+    // Verificar se a rifa existe
+    const raffle = dataManager.getRaffleById(id);
+    if (!raffle) {
+      return ResponseFormatter.notFound(res, 'Rifa não encontrada');
+    }
+
+    // Verificar propriedade
+    if (raffle.owner !== req.user.id && req.user.role !== 'super_admin') {
+      return ResponseFormatter.forbidden(res, 'Sem permissão para excluir esta rifa');
+    }
+
+    // Verificar se há tickets vendidos
+    const stats = this.calculateRaffleStats(id);
+    if (stats.soldTickets > 0) {
+      return ResponseFormatter.badRequest(res, 'Não é possível excluir rifa com tickets vendidos');
+    }
+
+    // Verificar se não está ativa
+    if (raffle.status === 'active') {
+      return ResponseFormatter.badRequest(res, 'Não é possível excluir rifa ativa. Pause ou cancele primeiro.');
+    }
+
+    // Excluir rifa
+    const deleted = dataManager.deleteRaffle(id);
+    
+    if (!deleted) {
+      return ResponseFormatter.error(res, 'Erro ao excluir rifa');
+    }
+
+    logger.info(`Rifa excluída: ${id} por usuário ${req.user.id}`);
+
+    return ResponseFormatter.success(res, null, 'Rifa excluída com sucesso');
   });
 
+  // Realizar sorteio
   drawRaffle = catchAsync(async (req, res) => {
-    return ResponseFormatter.success(res, null, 'Sorteio - a implementar');
+    const { id } = req.params;
+    
+    // Verificar se a rifa existe
+    const raffle = dataManager.getRaffleById(id);
+    if (!raffle) {
+      return ResponseFormatter.notFound(res, 'Rifa não encontrada');
+    }
+
+    // Verificar propriedade
+    if (raffle.owner !== req.user.id && req.user.role !== 'super_admin') {
+      return ResponseFormatter.forbidden(res, 'Sem permissão para sortear esta rifa');
+    }
+
+    // Verificações para sorteio
+    if (raffle.status !== 'active') {
+      return ResponseFormatter.badRequest(res, 'Rifa deve estar ativa para ser sorteada');
+    }
+
+    if (raffle.winner) {
+      return ResponseFormatter.badRequest(res, 'Rifa já foi sorteada');
+    }
+
+    // Buscar tickets pagos
+    const tickets = dataManager.getTickets().filter(ticket => ticket.raffle === id);
+    const paidTickets = tickets.filter(ticket => ticket.paymentStatus === 'paid');
+    
+    if (paidTickets.length === 0) {
+      return ResponseFormatter.badRequest(res, 'Não há tickets pagos para o sorteio');
+    }
+
+    try {
+      // Realizar sorteio usando o helper
+      const helpers = require('../utils/helpers');
+      const winnerData = helpers.drawWinner(id, dataManager);
+      
+      // Atualizar rifa
+      const updatedRaffle = dataManager.updateRaffle(id, {
+        status: 'completed',
+        winner: winnerData.winnerUserId,
+        winnerTicket: winnerData.winnerTicketNumber,
+        drawDate: new Date().toISOString(),
+        completedAt: new Date().toISOString()
+      });
+
+      // Marcar ticket como vencedor
+      dataManager.updateTicket(winnerData.winnerTicketId, { isWinner: true });
+
+      // Buscar dados do vencedor
+      const winner = dataManager.getUserById(winnerData.winnerUserId);
+
+      logger.info(`Sorteio realizado para rifa ${id}. Vencedor: ${winner?.name} - Ticket: ${winnerData.winnerTicketNumber}`);
+
+      return ResponseFormatter.success(res, {
+        raffle: updatedRaffle,
+        winner: {
+          id: winner?.id,
+          name: winner?.name,
+          email: winner?.email,
+          ticketNumber: winnerData.winnerTicketNumber
+        }
+      }, 'Sorteio realizado com sucesso');
+    } catch (error) {
+      logger.error('Erro ao realizar sorteio:', error);
+      return ResponseFormatter.error(res, error.message || 'Erro interno ao realizar sorteio');
+    }
   });
 
+  // Atualizar status da rifa
   updateRaffleStatus = catchAsync(async (req, res) => {
-    return ResponseFormatter.success(res, null, 'Atualizar status - a implementar');
+    try {
+      const { id } = req.params;
+      const { status } = req.body;
+      
+      // Validar dados
+      const validatedData = RaffleValidator.validateStatusUpdate({ status });
+      
+      // Verificar se a rifa existe
+      const raffle = dataManager.getRaffleById(id);
+      if (!raffle) {
+        return ResponseFormatter.notFound(res, 'Rifa não encontrada');
+      }
+
+      // Verificar propriedade
+      if (raffle.owner !== req.user.id && req.user.role !== 'super_admin') {
+        return ResponseFormatter.forbidden(res, 'Sem permissão para alterar status desta rifa');
+      }
+
+      // Validar transição de status
+      const currentStatus = raffle.status;
+      const newStatus = validatedData.status;
+
+      // Regras de transição
+      const validTransitions = {
+        'pending': ['active', 'cancelled'],
+        'active': ['paused', 'completed', 'cancelled'],
+        'paused': ['active', 'cancelled'],
+        'completed': [], // Não pode sair de completed
+        'cancelled': [] // Não pode sair de cancelled
+      };
+
+      if (!validTransitions[currentStatus]?.includes(newStatus)) {
+        return ResponseFormatter.badRequest(res, `Transição de status inválida: ${currentStatus} -> ${newStatus}`);
+      }
+
+      // Regras específicas
+      if (newStatus === 'completed' && !raffle.winner) {
+        return ResponseFormatter.badRequest(res, 'Para marcar como completa, realize o sorteio primeiro');
+      }
+
+      // Atualizar status
+      const updatedRaffle = dataManager.updateRaffle(id, {
+        status: newStatus,
+        updatedAt: new Date().toISOString()
+      });
+
+      if (!updatedRaffle) {
+        return ResponseFormatter.error(res, 'Erro ao atualizar status');
+      }
+
+      logger.info(`Status da rifa ${id} alterado de ${currentStatus} para ${newStatus} por usuário ${req.user.id}`);
+
+      return ResponseFormatter.success(res, updatedRaffle, `Status atualizado para ${newStatus} com sucesso`);
+    } catch (error) {
+      if (error.message.startsWith('[') || error.message.startsWith('{')) {
+        const validationErrors = JSON.parse(error.message);
+        return ResponseFormatter.badRequest(res, 'Dados inválidos', validationErrors);
+      }
+      
+      logger.error('Erro ao atualizar status da rifa:', error);
+      return ResponseFormatter.error(res, 'Erro interno ao atualizar status');
+    }
   });
 
   // Método auxiliar para calcular estatísticas

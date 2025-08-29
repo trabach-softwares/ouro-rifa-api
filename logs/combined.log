@@ -2605,3 +2605,95 @@ Error: Rota /api/raffles/raffle_1756345833112_hlq61s2xw/status não encontrada
 2025-08-28 10:01:22 [INFO]: GET /api/auth/profile - ::1
 2025-08-28 10:01:22 [INFO]: GET /api/reports/dashboard - ::1
 2025-08-28 10:01:22 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 10:52:59 [INFO]: Servidor rodando na porta 3000
+2025-08-29 11:07:34 [INFO]: Servidor rodando na porta 3000
+2025-08-29 11:08:23 [INFO]: Servidor rodando na porta 3000
+2025-08-29 11:11:52 [INFO]: Servidor rodando na porta 3000
+2025-08-29 11:11:53 [INFO]: Servidor rodando na porta 3000
+2025-08-29 11:12:17 [INFO]: Servidor rodando na porta 3000
+2025-08-29 11:35:32 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 11:35:32 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-29 11:35:32 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:35:42 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:35:43 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-29 11:35:43 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:35:44 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 11:35:46 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:35:49 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 11:35:51 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:35:52 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 11:35:54 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:35:55 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 11:35:57 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:36:04 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:36:12 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 11:38:26 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:39:56 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 11:39:56 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:40:02 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:42:29 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:43:06 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 11:43:06 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:43:15 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:45:23 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:46:04 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 11:46:12 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 11:46:34 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 11:50:32 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 11:53:41 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 11:53:41 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 15:15:00 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 15:15:27 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 15:35:24 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 15:35:24 [INFO]: GET /api/reports/dashboard - ::1
+2025-08-29 15:35:25 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 15:35:27 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 15:35:29 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 15:35:40 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 15:35:49 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 15:36:02 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 15:40:09 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 15:44:42 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 16:04:16 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:05:24 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:05:30 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:16:09 [INFO]: GET /api/auth/profile - ::1
+2025-08-29 16:16:09 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:16:41 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 16:16:41 [INFO]: Status da rifa raffle_1756344348899_v7shl9h1l alterado de pending para active por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:16:42 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:16:48 [INFO]: PUT /api/raffles/raffle_1756345833112_hlq61s2xw/status - ::1
+2025-08-29 16:16:48 [INFO]: Status da rifa raffle_1756345833112_hlq61s2xw alterado de pending para active por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:16:49 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:16:52 [INFO]: PUT /api/raffles/raffle_1756345833112_hlq61s2xw/status - ::1
+2025-08-29 16:16:52 [INFO]: Status da rifa raffle_1756345833112_hlq61s2xw alterado de active para paused por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:16:52 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:16:53 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:16:54 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 16:16:54 [INFO]: Status da rifa raffle_1756344348899_v7shl9h1l alterado de active para paused por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:16:54 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:16:55 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:16:59 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 16:16:59 [INFO]: Status da rifa raffle_1756344348899_v7shl9h1l alterado de paused para active por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:17:00 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:17:01 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:17:02 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:17:20 [INFO]: PUT /api/raffles/raffle_1756345833112_hlq61s2xw/status - ::1
+2025-08-29 16:17:20 [INFO]: Status da rifa raffle_1756345833112_hlq61s2xw alterado de paused para active por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:17:21 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:17:31 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:17:31 [INFO]: GET /api/reports/sales - ::1
+2025-08-29 16:17:44 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:17:49 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 16:17:49 [INFO]: Status da rifa raffle_1756344348899_v7shl9h1l alterado de active para paused por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:17:49 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:17:50 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:17:50 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:17:52 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:17:53 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:17:55 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-08-29 16:17:59 [INFO]: PUT /api/raffles/raffle_1756344348899_v7shl9h1l/status - ::1
+2025-08-29 16:17:59 [INFO]: Status da rifa raffle_1756344348899_v7shl9h1l alterado de paused para active por usuário user_1756340056197_4dle2lolu
+2025-08-29 16:18:00 [INFO]: Servidor rodando na porta 3000
+2025-08-29 16:18:02 [INFO]: GET /api/raffles/raffle_1756344348899_v7shl9h1l - ::1
+2025-08-29 16:18:02 [INFO]: GET /api/reports/sales - ::1

@@ -189,9 +189,9 @@ class RaffleService extends BaseService {
       throw new Error(`Transição de status inválida: ${currentStatus} -> ${newStatus}`);
     }
 
-    // Regras específicas
-    if (newStatus === RAFFLE_STATUS.ACTIVE && !raffle.endDate) {
-      throw new Error('Rifa deve ter data de fim definida para ser ativada');
+    // Regras específicas removidas - data de fim não é obrigatória
+    if (newStatus === RAFFLE_STATUS.COMPLETED && !raffle.winner) {
+      throw new Error('Para marcar como completa, realize o sorteio primeiro');
     }
   }
 

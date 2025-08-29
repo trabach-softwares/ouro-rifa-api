@@ -383,8 +383,13 @@ class DataManager {
   }
 
   getTicketsByRaffle(raffleId) {
-    const tickets = this.getTickets();
-    return tickets.filter(ticket => ticket.raffle === raffleId);
+    try {
+      const tickets = this.getTickets();
+      return tickets.filter(ticket => ticket.raffle === raffleId);
+    } catch (error) {
+      console.error('Erro ao buscar tickets por rifa:', error);
+      return [];
+    }
   }
 
   createTicket(ticketData) {
