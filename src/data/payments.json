@@ -43,16 +43,17 @@
       "raffle": "raffle_1756775222827_7degpk3l6",
       "amount": 20,
       "method": "pix",
-      "status": "pending",
-      "processedAt": null,
-      "transactionId": null,
+      "status": "completed",
+      "processedAt": "2025-09-02T02:41:00.003Z",
+      "transactionId": "MANUAL_CONFIRM_1756780859972",
       "pixData": {
         "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
         "pixKey": "trabachjonathan@gmail.com",
         "identifier": "RIFA3l6p001",
         "expiresAt": "2025-01-30T08:30:00.000Z"
       },
-      "createdAt": "2025-01-30T08:00:00.000Z"
+      "createdAt": "2025-01-30T08:00:00.000Z",
+      "updatedAt": "2025-09-02T02:41:00.004Z"
     },
     {
       "id": "payment_1756777100000_processing01",

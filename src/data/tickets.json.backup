@@ -4,9 +4,12 @@
       "id": "ticket_1756777000000_pending001",
       "raffle": "raffle_1756775222827_7degpk3l6",
       "user": "user_1756340056197_4dle2lolu",
-      "ticketNumbers": ["0001", "0002"],
+      "ticketNumbers": [
+        "0001",
+        "0002"
+      ],
       "quantity": 2,
-      "totalAmount": 20.0,
+      "totalAmount": 20,
       "paymentStatus": "pending",
       "paymentMethod": "pix",
       "paymentDate": null,
@@ -18,23 +21,34 @@
       "id": "ticket_1756777100000_processing01",
       "raffle": "raffle_1756775222827_7degpk3l6",
       "user": "user_1756340056197_4dle2lolu",
-      "ticketNumbers": ["0003", "0004", "0005"],
+      "ticketNumbers": [
+        "0003",
+        "0004",
+        "0005"
+      ],
       "quantity": 3,
-      "totalAmount": 30.0,
-      "paymentStatus": "processing",
+      "totalAmount": 30,
+      "paymentStatus": "paid",
       "paymentMethod": "pix",
-      "paymentDate": null,
-      "transactionId": "PIX_PROC_789456123",
+      "paymentDate": "2025-09-02T02:21:28.182Z",
+      "transactionId": "MANUAL_CONFIRM_1756779688084",
       "isWinner": false,
-      "createdAt": "2025-01-30T09:00:00.000Z"
+      "createdAt": "2025-01-30T09:00:00.000Z",
+      "updatedAt": "2025-09-02T02:21:28.182Z"
     },
     {
       "id": "ticket_1756777200000_paid0001",
       "raffle": "raffle_1756775222827_7degpk3l6",
       "user": "user_1756340056197_4dle2lolu",
-      "ticketNumbers": ["0010", "0011", "0012", "0013", "0014"],
+      "ticketNumbers": [
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014"
+      ],
       "quantity": 5,
-      "totalAmount": 50.0,
+      "totalAmount": 50,
       "paymentStatus": "paid",
       "paymentMethod": "pix",
       "paymentDate": "2025-01-30T10:30:00.000Z",
@@ -46,9 +60,11 @@
       "id": "ticket_1756777300000_failed001",
       "raffle": "raffle_1756775222827_7degpk3l6",
       "user": "user_1756340056197_4dle2lolu",
-      "ticketNumbers": ["0020"],
+      "ticketNumbers": [
+        "0020"
+      ],
       "quantity": 1,
-      "totalAmount": 10.0,
+      "totalAmount": 10,
       "paymentStatus": "failed",
       "paymentMethod": "pix",
       "paymentDate": null,
@@ -60,9 +76,12 @@
       "id": "ticket_1756777400000_cancelled01",
       "raffle": "raffle_1756775222827_7degpk3l6",
       "user": "user_1756340056197_4dle2lolu",
-      "ticketNumbers": ["0025", "0026"],
+      "ticketNumbers": [
+        "0025",
+        "0026"
+      ],
       "quantity": 2,
-      "totalAmount": 20.0,
+      "totalAmount": 20,
       "paymentStatus": "cancelled",
       "paymentMethod": "pix",
       "paymentDate": null,
@@ -74,9 +93,11 @@
       "id": "ticket_1756777500000_expired001",
       "raffle": "raffle_1756775222827_7degpk3l6",
       "user": "user_1756340056197_4dle2lolu",
-      "ticketNumbers": ["0030"],
+      "ticketNumbers": [
+        "0030"
+      ],
       "quantity": 1,
-      "totalAmount": 10.0,
+      "totalAmount": 10,
       "paymentStatus": "expired",
       "paymentMethod": "pix",
       "paymentDate": null,
@@ -88,9 +109,13 @@
       "id": "ticket_1756346600000_vwx234yza",
       "raffle": "raffle_1756775222827_7degpk3l6",
       "user": "user_1756340056197_4dle2lolu",
-      "ticketNumbers": ["0044", "0055", "0066"],
+      "ticketNumbers": [
+        "0044",
+        "0055",
+        "0066"
+      ],
       "quantity": 3,
-      "totalAmount": 30.0,
+      "totalAmount": 30,
       "paymentStatus": "paid",
       "paymentMethod": "pix",
       "paymentDate": "2025-01-30T10:45:00.000Z",

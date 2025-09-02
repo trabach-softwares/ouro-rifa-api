@@ -139,11 +139,19 @@ class PaymentService extends BaseService {
         logger.info(`Payment criado automaticamente: ${payment.id}`);
       }
 
-      // Verificar permissão final
-      if (payment.user !== userId) {
-        logger.error(`Permissão final negada: payment.user=${payment.user}, userId=${userId}`);
+      // Verificar permissão final - VERSÃO EXPANDIDA
+      const isTicketOwner = payment.user === userId; // Comprador do ticket
+      const raffle = this.dataManager.getRaffleById(payment.raffle);
+      const isRaffleOwner = raffle && raffle.owner === userId; // Dono da rifa
+      const user = this.dataManager.getUserById(userId);
+      const isAdmin = user && ['admin', 'super_admin'].includes(user.role); // Admin
+
+      if (!isTicketOwner && !isRaffleOwner && !isAdmin) {
+        logger.error(`Acesso negado: ticket.user=${payment.user}, userId=${userId}, raffle.owner=${raffle?.owner}`);
         throw new Error(ERROR_MESSAGES.ACCESS_DENIED);
       }
+
+      logger.info(`Pagamento autorizado por: ${isTicketOwner ? 'comprador' : isRaffleOwner ? 'dono da rifa' : 'admin'}`);
 
       // ✅ ACEITAR qualquer status (se está confirmando, já foi pago)
       if (payment.status === 'completed') {

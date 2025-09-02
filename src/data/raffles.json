@@ -77,7 +77,7 @@
       "publicContactPhone": "(99) 99999-9999",
       "category": "ELECTRONICS",
       "totalTickets": 100,
-      "soldTickets": 3,
+      "soldTickets": 5,
       "ticketPrice": 10,
       "drawType": "sorteador_com_br",
       "drawDate": null,
@@ -105,7 +105,7 @@
       "completedAt": null,
       "platformFee": 47,
       "estimatedRevenue": 953,
-      "revenue": 30
+      "revenue": 50
     }
   ]
 }

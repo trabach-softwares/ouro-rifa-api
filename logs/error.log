@@ -2445,3 +2445,528 @@ Error: Acesso negado
     at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
     at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
     at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:25:19 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:25:19 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:25:19 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:25:20 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:25:20 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:25:20 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:25:33 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:25:33 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:25:33 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:08 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:08 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:08 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:10 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:10 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:10 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:31 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:31 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:31 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:32 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:32 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:32 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:33 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:33 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:33 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:38 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:38 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:38 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:39 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:39 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:39 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:40 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:40 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:40 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:40 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:40 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:40 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:40 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:30:40 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:30:40 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:35:18 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:35:18 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:35:18 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:36:54 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:36:54 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:36:54 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:39:24 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:39:24 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:39:24 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:39:36 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:39:36 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:39:36 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:33 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:40:33 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:33 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:42 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:40:42 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:42 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:45 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:40:45 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:45 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:56 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:40:56 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:40:56 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)

@@ -10,12 +10,13 @@
       ],
       "quantity": 2,
       "totalAmount": 20,
-      "paymentStatus": "pending",
+      "paymentStatus": "paid",
       "paymentMethod": "pix",
-      "paymentDate": null,
-      "transactionId": null,
+      "paymentDate": "2025-09-02T02:41:00.011Z",
+      "transactionId": "MANUAL_CONFIRM_1756780859972",
       "isWinner": false,
-      "createdAt": "2025-01-30T08:00:00.000Z"
+      "createdAt": "2025-01-30T08:00:00.000Z",
+      "updatedAt": "2025-09-02T02:41:00.011Z"
     },
     {
       "id": "ticket_1756777100000_processing01",
