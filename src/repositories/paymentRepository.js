@@ -11,7 +11,8 @@ class PaymentRepository extends BaseRepository {
   }
 
   findByTicket(ticketId) {
-    return this.findOneBy({ ticket: ticketId });
+    const payments = this.findBy({ ticket: ticketId });
+    return payments.length > 0 ? payments[0] : null; // Retornar apenas um
   }
 
   findByRaffle(raffleId) {
@@ -23,11 +24,11 @@ class PaymentRepository extends BaseRepository {
   }
 
   findCompleted() {
-    return this.findByStatus(PAYMENT_STATUS.PAID);
+    return this.findByStatus('completed');
   }
 
   findPending() {
-    return this.findByStatus(PAYMENT_STATUS.PENDING);
+    return this.findByStatus('pending');
   }
 
   findByMethod(method) {
@@ -36,9 +37,11 @@ class PaymentRepository extends BaseRepository {
 
   create(paymentData) {
     const newPayment = {
+      id: `payment_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
       ...paymentData,
       processedAt: null,
-      transactionId: null
+      transactionId: null,
+      createdAt: new Date().toISOString()
     };
     
     return super.create(newPayment);
@@ -46,7 +49,7 @@ class PaymentRepository extends BaseRepository {
 
   markAsCompleted(paymentId, transactionId) {
     return this.update(paymentId, {
-      status: PAYMENT_STATUS.PAID,
+      status: 'completed',
       processedAt: new Date().toISOString(),
       transactionId
     });
@@ -55,8 +58,10 @@ class PaymentRepository extends BaseRepository {
   findByDateRange(startDate, endDate) {
     const payments = this.findAll();
     return payments.filter(payment => {
-      const paymentDate = new Date(payment.processedAt || payment.createdAt);
-      return paymentDate >= new Date(startDate) && paymentDate <= new Date(endDate);
+      const paymentDate = payment.processedAt || payment.createdAt;
+      return paymentDate && 
+             new Date(paymentDate) >= new Date(startDate) && 
+             new Date(paymentDate) <= new Date(endDate);
     });
   }
 }

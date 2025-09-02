@@ -30,11 +30,17 @@ const auth = async (req, res, next) => {
 
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     
+    // ✅ ADICIONAR LOG para debug
+    logger.info(`Token decodificado: ${JSON.stringify(decoded)}`);
+    
     if (!decoded || !decoded.id) {
       return createErrorResponse(res, ERROR_MESSAGES.INVALID_TOKEN, 401);
     }
 
     const user = dataManager.getUserById(decoded.id);
+    
+    // ✅ ADICIONAR LOG para debug
+    logger.info(`Usuário encontrado: ${user ? user.email : 'null'}`);
     
     if (!user) {
       return createErrorResponse(res, ERROR_MESSAGES.USER_NOT_FOUND, 401);

@@ -25,20 +25,37 @@ class PaymentController {
   });
 
   confirmPayment = catchAsync(async (req, res) => {
-    const { paymentId, transactionId } = req.body;
+    // ✅ ACEITAR tanto paymentId quanto ticketId
+    const { paymentId, ticketId, transactionId } = req.body;
     
-    if (!paymentId || !transactionId) {
-      return ResponseFormatter.badRequest(res, 'ID do pagamento e ID da transação são obrigatórios');
+    // Usar paymentId ou ticketId (flexibilidade)
+    const id = paymentId || ticketId;
+    
+    if (!id || !transactionId) {
+      return ResponseFormatter.badRequest(res, 'ID do pagamento/ticket e ID da transação são obrigatórios');
     }
 
-    const result = await this.paymentService.confirmPayment(paymentId, transactionId, req.user.id);
+    try {
+      const result = await this.paymentService.confirmPayment(id, transactionId, req.user.id);
 
-    logger.info(`Pagamento confirmado: ${paymentId} - ${result.payment.amount} por ${req.user.email}`);
+      logger.info(`Pagamento confirmado: ${result.payment.id} - R$ ${result.payment.amount} por ${req.user.email}`);
 
-    return ResponseFormatter.success(res, {
-      payment: result.payment,
-      ticket: result.ticket
-    }, result.message);
+      return ResponseFormatter.success(res, {
+        payment: result.payment,
+        ticket: result.ticket
+      }, result.message);
+    } catch (error) {
+      logger.error('Erro ao confirmar pagamento:', error);
+      
+      if (error.message.includes('não encontrado')) {
+        return ResponseFormatter.notFound(res, error.message);
+      }
+      if (error.message.includes('Acesso negado')) {
+        return ResponseFormatter.forbidden(res, error.message);
+      }
+      
+      return ResponseFormatter.error(res, 'Erro interno ao confirmar pagamento');
+    }
   });
 
   getPaymentStatus = catchAsync(async (req, res) => {
@@ -168,6 +185,35 @@ class PaymentController {
     };
 
     return ResponseFormatter.success(res, stats);
+  });
+
+  getSalesPayments = catchAsync(async (req, res) => {
+    // Verificar se req.user existe
+    if (!req.user || !req.user.id) {
+      return ResponseFormatter.unauthorized(res, 'Usuário não autenticado');
+    }
+
+    const { status, page = 1, limit = 10 } = req.query;
+    const { page: validPage, limit: validLimit } = PaginationHelper.validatePaginationParams(page, limit);
+    
+    const filters = {};
+    if (status) filters.status = status;
+
+    try {
+      // Usar o método correto do service
+      const salesPayments = this.paymentService.getSalesPaymentsByOwner(req.user.id, filters);
+      
+      const { data: paginatedPayments, pagination } = PaginationHelper.paginate(
+        salesPayments, 
+        validPage, 
+        validLimit
+      );
+
+      return ResponseFormatter.paginated(res, paginatedPayments, pagination, 'Vendas obtidas com sucesso');
+    } catch (error) {
+      logger.error('Erro ao buscar vendas:', error);
+      return ResponseFormatter.error(res, 'Erro interno ao buscar vendas');
+    }
   });
 }
 

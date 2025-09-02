@@ -1,14 +1,15 @@
 const BaseService = require('./baseService');
 const TicketRepository = require('../repositories/ticketRepository');
 const RaffleRepository = require('../repositories/raffleRepository');
-const helpers = require('../utils/helpers');
 const { ERROR_MESSAGES, SUCCESS_MESSAGES, PAYMENT_STATUS } = require('../config/constants');
+const { logger } = require('../utils/logger');
+const helpers = require('../utils/helpers');
 
 class TicketService extends BaseService {
   constructor(dataManager) {
-    const ticketRepository = new TicketRepository(dataManager);
-    super(ticketRepository);
+    super();
     this.dataManager = dataManager;
+    this.repository = new TicketRepository(dataManager);
     this.raffleRepository = new RaffleRepository(dataManager);
   }
 
@@ -100,30 +101,47 @@ class TicketService extends BaseService {
   }
 
   getTicketsByUser(userId, filters = {}) {
-    let tickets = this.repository.findByUser(userId);
-    
-    // Aplicar filtros
-    if (filters.raffle) {
-      tickets = tickets.filter(ticket => ticket.raffle === filters.raffle);
-    }
-    
-    if (filters.status) {
-      tickets = tickets.filter(ticket => ticket.paymentStatus === filters.status);
-    }
+    try {
+      // Verificar se o repository existe e tem o método findByUser
+      if (!this.repository || typeof this.repository.findByUser !== 'function') {
+        logger.error('Repository não inicializado corretamente ou método findByUser não existe');
+        return [];
+      }
 
-    // Buscar informações das rifas
-    return tickets.map(ticket => {
-      const raffleInfo = this.raffleRepository.findById(ticket.raffle);
-      return {
-        ...ticket,
-        raffleInfo: raffleInfo ? {
-          id: raffleInfo.id,
-          title: raffleInfo.title,
-          image: raffleInfo.image,
-          status: raffleInfo.status
-        } : null
-      };
-    });
+      let tickets = this.repository.findByUser(userId);
+      
+      // Verificar se tickets é um array
+      if (!Array.isArray(tickets)) {
+        logger.warn('Método findByUser não retornou um array');
+        return [];
+      }
+      
+      // Aplicar filtros
+      if (filters.raffle) {
+        tickets = tickets.filter(ticket => ticket.raffle === filters.raffle);
+      }
+      
+      if (filters.status) {
+        tickets = tickets.filter(ticket => ticket.paymentStatus === filters.status);
+      }
+
+      // Buscar informações das rifas
+      return tickets.map(ticket => {
+        const raffleInfo = this.raffleRepository.findById(ticket.raffle);
+        return {
+          ...ticket,
+          raffleInfo: raffleInfo ? {
+            id: raffleInfo.id,
+            title: raffleInfo.title,
+            image: raffleInfo.image,
+            status: raffleInfo.status
+          } : null
+        };
+      });
+    } catch (error) {
+      logger.error('Erro em getTicketsByUser:', error);
+      return [];
+    }
   }
 
   getTicketDetails(ticketId, userId) {
@@ -153,7 +171,13 @@ class TicketService extends BaseService {
   }
 
   getTicketsByRaffle(raffleId) {
-    return this.repository.findByRaffle(raffleId);
+    try {
+      // Usar dataManager diretamente já que é mais confiável
+      return this.dataManager.getTicketsByRaffle(raffleId);
+    } catch (error) {
+      logger.error('Erro em getTicketsByRaffle:', error);
+      return [];
+    }
   }
 
   markTicketAsWinner(ticketId) {
@@ -161,11 +185,90 @@ class TicketService extends BaseService {
   }
 
   confirmTicketPayment(ticketId, transactionId) {
-    return this.repository.update(ticketId, {
-      paymentStatus: PAYMENT_STATUS.PAID,
-      paymentDate: new Date().toISOString(),
-      transactionId
-    });
+    try {
+      const ticket = this.repository.findById(ticketId);
+      if (!ticket) {
+        throw new Error('Ticket não encontrado');
+      }
+
+      // ✅ ACEITAR qualquer status (se está confirmando, forçar para paid)
+      if (ticket.paymentStatus === 'paid') {
+        // Se já está paid, apenas retornar
+        logger.info(`Ticket ${ticketId} já estava pago`);
+        return ticket;
+      }
+
+      // Atualizar ticket para paid (independente do status anterior)
+      const updatedTicket = this.repository.update(ticketId, {
+        paymentStatus: 'paid',
+        paymentDate: new Date().toISOString(),
+        transactionId
+      });
+
+      logger.info(`Ticket ${ticketId} confirmado como pago`);
+      return updatedTicket;
+    } catch (error) {
+      logger.error('Erro ao confirmar pagamento do ticket:', error);
+      throw error;
+    }
+  }
+
+  // ✅ MÉTODO CORRETO para service (sem req, res)
+  getSalesTicketsByOwner(ownerId, filters = {}) {
+    try {
+      // Buscar rifas do dono
+      const userRaffles = this.dataManager.getRaffles().filter(r => r.owner === ownerId);
+      const userRaffleIds = userRaffles.map(r => r.id);
+      
+      // Buscar tickets vendidos nas rifas do usuário
+      let tickets = this.dataManager.getTickets().filter(ticket => 
+        userRaffleIds.includes(ticket.raffle)
+      );
+      
+      // Aplicar filtros
+      if (filters.status) {
+        tickets = tickets.filter(t => t.paymentStatus === filters.status);
+      }
+      
+      // Enriquecer com dados do cliente e pagamento
+      return tickets.map(ticket => {
+        const customer = this.dataManager.getUserById(ticket.user); // Cliente que comprou
+        const raffle = this.dataManager.getRaffleById(ticket.raffle); // Rifa do dono
+        const payment = this.dataManager.getPayments().find(p => p.ticket === ticket.id);
+        
+        return {
+          // Dados do pedido
+          orderId: ticket.id,
+          ticketNumbers: ticket.ticketNumbers,
+          quantity: ticket.quantity,
+          totalAmount: ticket.totalAmount,
+          createdAt: ticket.createdAt,
+          
+          // Cliente que comprou (não o dono)
+          customer: customer ? {
+            name: customer.name,
+            email: customer.email,
+            phone: customer.phone
+          } : null,
+          
+          // Rifa do dono
+          raffle: raffle ? {
+            title: raffle.title,
+            id: raffle.id
+          } : null,
+          
+          // Pagamento do cliente
+          payment: {
+            status: payment?.status || 'pending',
+            method: payment?.method,
+            paidAt: payment?.processedAt
+          }
+        };
+      });
+    } catch (error) {
+      logger.error('Erro em getSalesTicketsByOwner:', error);
+      return [];
+    }
   }
 }
 

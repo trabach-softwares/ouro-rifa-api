@@ -19,19 +19,21 @@ class TicketRepository extends BaseRepository {
   }
 
   findPaidTickets() {
-    return this.findByPaymentStatus(PAYMENT_STATUS.PAID);
+    return this.findByPaymentStatus('paid');
   }
 
   findPendingTickets() {
-    return this.findByPaymentStatus(PAYMENT_STATUS.PENDING);
+    return this.findByPaymentStatus('pending');
   }
 
   create(ticketData) {
     const newTicket = {
+      id: `ticket_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
       ...ticketData,
       isWinner: false,
       paymentDate: null,
-      transactionId: null
+      transactionId: null,
+      createdAt: new Date().toISOString()
     };
     
     return super.create(newTicket);

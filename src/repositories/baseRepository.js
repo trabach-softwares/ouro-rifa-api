@@ -1,93 +1,69 @@
 const { v4: uuidv4 } = require('uuid');
 
 class BaseRepository {
-  constructor(dataManager, entityName, idPrefix) {
+  constructor(dataManager, dataKey, itemType) {
     this.dataManager = dataManager;
-    this.entityName = entityName;
-    this.idPrefix = idPrefix;
-  }
-
-  generateId() {
-    return `${this.idPrefix}_${uuidv4()}`;
+    this.dataKey = dataKey; // 'tickets', 'raffles', etc.
+    this.itemType = itemType; // 'ticket', 'raffle', etc.
   }
 
   findAll() {
-    const data = this.dataManager.readData(`${this.entityName}.json`);
-    return data[this.entityName] || [];
+    return this.dataManager.getData(this.dataKey) || [];
   }
 
   findById(id) {
-    const entities = this.findAll();
-    return entities.find(entity => entity.id === id);
-  }
-
-  create(entityData) {
-    const entities = this.findAll();
-    const newEntity = {
-      id: this.generateId(),
-      ...entityData,
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
-    };
-    
-    entities.push(newEntity);
-    this.dataManager.writeData(`${this.entityName}.json`, { [this.entityName]: entities });
-    return newEntity;
-  }
-
-  update(id, updateData) {
-    const data = this.dataManager.readData(`${this.entityName}.json`);
-    const entities = data[this.entityName] || [];
-    const entityIndex = entities.findIndex(entity => entity.id === id);
-    
-    if (entityIndex === -1) {
-      return null;
-    }
-
-    entities[entityIndex] = {
-      ...entities[entityIndex],
-      ...updateData,
-      updatedAt: new Date().toISOString()
-    };
-
-    this.dataManager.writeData(`${this.entityName}.json`, { [this.entityName]: entities });
-    return entities[entityIndex];
-  }
-
-  delete(id) {
-    const data = this.dataManager.readData(`${this.entityName}.json`);
-    const entities = data[this.entityName] || [];
-    const entityIndex = entities.findIndex(entity => entity.id === id);
-    
-    if (entityIndex === -1) {
-      return false;
-    }
-
-    entities.splice(entityIndex, 1);
-    this.dataManager.writeData(`${this.entityName}.json`, { [this.entityName]: entities });
-    return true;
+    const items = this.findAll();
+    return items.find(item => item.id === id);
   }
 
   findBy(criteria) {
-    const entities = this.findAll();
-    return entities.filter(entity => {
-      return Object.keys(criteria).every(key => entity[key] === criteria[key]);
+    const items = this.findAll();
+    return items.filter(item => {
+      return Object.keys(criteria).every(key => {
+        return item[key] === criteria[key];
+      });
     });
   }
 
-  findOneBy(criteria) {
-    const entities = this.findAll();
-    return entities.find(entity => {
-      return Object.keys(criteria).every(key => entity[key] === criteria[key]);
-    });
+  create(itemData) {
+    const items = this.findAll();
+    const newItem = {
+      id: itemData.id || `${this.itemType}_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      ...itemData,
+      createdAt: itemData.createdAt || new Date().toISOString()
+    };
+    
+    items.push(newItem);
+    this.dataManager.saveData(this.dataKey, items);
+    return newItem;
   }
 
-  count() {
-    return this.findAll().length;
+  update(id, updateData) {
+    const items = this.findAll();
+    const itemIndex = items.findIndex(item => item.id === id);
+    
+    if (itemIndex !== -1) {
+      items[itemIndex] = { 
+        ...items[itemIndex], 
+        ...updateData,
+        updatedAt: new Date().toISOString()
+      };
+      this.dataManager.saveData(this.dataKey, items);
+      return items[itemIndex];
+    }
+    return null;
   }
 
-  exists(id) {
-    return this.findById(id) !== undefined;
+  delete(id) {
+    const items = this.findAll();
+    const itemIndex = items.findIndex(item => item.id === id);
+    
+    if (itemIndex !== -1) {
+      items.splice(itemIndex, 1);
+      this.dataManager.saveData(this.dataKey, items);
+      return true;
+    }
+    return false;
   }
 }
 

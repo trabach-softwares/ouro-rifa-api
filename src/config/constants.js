@@ -50,11 +50,11 @@ const RAFFLE_STATUS = {
 
 const PAYMENT_STATUS = {
   PENDING: 'pending',
-  PROCESSING: 'processing',
-  COMPLETED: 'completed',
+  PROCESSING: 'processing', // Opcional
   PAID: 'paid',
   FAILED: 'failed',
-  CANCELLED: 'cancelled'
+  CANCELLED: 'cancelled',
+  EXPIRED: 'expired'        // Opcional
 };
 
 // Tipos de sorteio disponíveis

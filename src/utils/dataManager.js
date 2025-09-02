@@ -382,6 +382,7 @@ class DataManager {
     return tickets.filter(ticket => ticket.user === userId);
   }
 
+  // Verificar se este método existe no DataManager
   getTicketsByRaffle(raffleId) {
     try {
       const tickets = this.getTickets();
@@ -536,6 +537,44 @@ class DataManager {
   getUploadsByCategory(category) {
     const uploads = this.getUploads();
     return uploads.filter(upload => upload.category === category);
+  }
+
+  getData(key) {
+    try {
+      const filename = key.includes('.') ? key : `${key}.json`;
+      const data = this.readData(filename);
+      
+      // Retornar array baseado na chave
+      if (key === 'tickets') return data?.tickets || [];
+      if (key === 'raffles') return data?.raffles || [];
+      if (key === 'payments') return data?.payments || [];
+      if (key === 'users') return data?.users || [];
+      
+      return data || [];
+    } catch (error) {
+      console.error(`Erro ao buscar dados para ${key}:`, error);
+      return [];
+    }
+  }
+
+  saveData(key, items) {
+    try {
+      const filename = key.includes('.') ? key : `${key}.json`;
+      const dataObject = {};
+      
+      // Estruturar dados baseado na chave
+      if (key === 'tickets') dataObject.tickets = items;
+      else if (key === 'raffles') dataObject.raffles = items;
+      else if (key === 'payments') dataObject.payments = items;
+      else if (key === 'users') dataObject.users = items;
+      else dataObject[key] = items;
+      
+      this.writeData(filename, dataObject);
+      return true;
+    } catch (error) {
+      console.error(`Erro ao salvar dados para ${key}:`, error);
+      return false;
+    }
   }
 }
 

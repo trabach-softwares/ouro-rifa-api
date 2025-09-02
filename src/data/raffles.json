@@ -30,7 +30,7 @@
     },
     {
       "id": "raffle_1756345833112_hlq61s2xw",
-      "title": "TEste",
+      "title": "testes",
       "description": "testesteste",
       "campaignImages": [
         "/uploads/raffles/raffle_1756345833064-292161035.jpeg"
@@ -53,7 +53,7 @@
       "status": "active",
       "owner": "user_1756340056197_4dle2lolu",
       "createdAt": "2025-08-28T01:50:33.112Z",
-      "updatedAt": "2025-08-29T19:46:31.153Z",
+      "updatedAt": "2025-09-01T23:02:05.848Z",
       "settings": {
         "minTicketsPerPurchase": 1,
         "maxTicketsPerPurchase": 199,
@@ -66,6 +66,46 @@
       "completedAt": null,
       "platformFee": 147,
       "estimatedRevenue": 7653
+    },
+    {
+      "id": "raffle_1756775222827_7degpk3l6",
+      "title": "Rifa teste",
+      "description": "Teste teste teste",
+      "campaignImages": [
+        "/uploads/raffles/raffle_1756775222818-321472070.jpeg"
+      ],
+      "publicContactPhone": "(99) 99999-9999",
+      "category": "ELECTRONICS",
+      "totalTickets": 100,
+      "soldTickets": 3,
+      "ticketPrice": 10,
+      "drawType": "sorteador_com_br",
+      "drawDate": null,
+      "prizes": [
+        {
+          "id": "prize_1756775205179",
+          "name": "500 reais",
+          "description": "Primeiro premio 500 reais",
+          "position": 1
+        }
+      ],
+      "status": "active",
+      "owner": "user_1756775133696_egsyulekm",
+      "createdAt": "2025-09-02T01:07:02.827Z",
+      "updatedAt": "2025-09-02T01:07:34.573Z",
+      "settings": {
+        "minTicketsPerPurchase": 1,
+        "maxTicketsPerPurchase": 199,
+        "maxTicketsPerPerson": 20,
+        "showBuyersList": false,
+        "autoApprovePayments": false
+      },
+      "winner": null,
+      "winnerTicket": null,
+      "completedAt": null,
+      "platformFee": 47,
+      "estimatedRevenue": 953,
+      "revenue": 30
     }
   ]
 }

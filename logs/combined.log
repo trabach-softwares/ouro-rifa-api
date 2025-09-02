@@ -3361,3 +3361,998 @@ TypeError: Cannot read properties of undefined (reading 'id')
     at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
     at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
     at Function.handle (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:175:3)
+2025-09-01 21:19:16 [ERROR]: Erro ao carregar rotas: catchAsync is not defined
+ReferenceError: catchAsync is not defined
+    at <instance_members_initializer> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:189:21)
+    at new TicketService (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:11:5)
+    at new TicketController (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:11:26)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:182:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-09-01 21:19:16 [INFO]: Servidor rodando na porta 3000
+2025-09-01 21:19:26 [ERROR]: Erro ao carregar rotas: catchAsync is not defined
+ReferenceError: catchAsync is not defined
+    at <instance_members_initializer> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:189:21)
+    at new TicketService (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:11:5)
+    at new TicketController (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:11:26)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:182:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-09-01 21:19:26 [INFO]: Servidor rodando na porta 3000
+2025-09-01 21:19:55 [ERROR]: Erro ao carregar rotas: catchAsync is not defined
+ReferenceError: catchAsync is not defined
+    at <instance_members_initializer> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:189:21)
+    at new TicketService (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:11:5)
+    at new TicketController (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:11:26)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:182:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-09-01 21:19:55 [INFO]: Servidor rodando na porta 3000
+2025-09-01 21:19:56 [INFO]: SIGTERM recebido. Fazendo shutdown graceful...
+2025-09-01 21:19:56 [INFO]: Processo finalizado.
+2025-09-01 21:56:41 [ERROR]: Erro ao carregar rotas: catchAsync is not defined
+ReferenceError: catchAsync is not defined
+    at <instance_members_initializer> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:189:21)
+    at new TicketService (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:11:5)
+    at new TicketController (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:11:26)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:182:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+    at Object..js (node:internal/modules/cjs/loader:1899:10)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-09-01 21:56:41 [INFO]: Servidor rodando na porta 3000
+2025-09-01 21:56:48 [INFO]: POST /api/auth/login - ::1
+2025-09-01 21:56:48 [ERROR]: Global Error Handler: Rota /api/auth/login não encontrada {"url":"/api/auth/login","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/login não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-01 21:58:09 [INFO]: Servidor rodando na porta 3000
+2025-09-01 21:58:10 [INFO]: Servidor rodando na porta 3000
+2025-09-01 21:58:16 [INFO]: POST /api/auth/login - ::1
+2025-09-01 21:58:17 [INFO]: Login realizado com sucesso: trabachjonathan@gmail.com
+2025-09-01 21:58:19 [INFO]: Servidor rodando na porta 3000
+2025-09-01 21:58:19 [INFO]: GET /api/reports/dashboard - ::1
+2025-09-01 21:58:19 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 21:58:21 [INFO]: GET /api/payments/my-payments - ::1
+2025-09-01 21:58:21 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'id') {"url":"/api/payments/my-payments?page=1&limit=20","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:46:71
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+2025-09-01 21:58:21 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 21:58:23 [INFO]: GET /api/payments/my-payments - ::1
+2025-09-01 21:58:23 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'id') {"url":"/api/payments/my-payments?page=1&limit=20","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:46:71
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+2025-09-01 21:58:37 [INFO]: GET /api/payments/my-payments - ::1
+2025-09-01 21:58:37 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'id') {"url":"/api/payments/my-payments?page=1&limit=20","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:46:71
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+2025-09-01 22:00:13 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:00:13 [ERROR]: Global Error Handler: Rota /api/payments/sales/list?status=&page=1&limit=10 não encontrada {"url":"/api/payments/sales/list?status=&page=1&limit=10","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota /api/payments/sales/list?status=&page=1&limit=10 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-01 22:00:23 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:00:23 [ERROR]: Global Error Handler: Rota /api/payments/sales/list?page=1&limit=10 não encontrada {"url":"/api/payments/sales/list?page=1&limit=10","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1"}
+Error: Rota /api/payments/sales/list?page=1&limit=10 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-01 22:00:38 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:00:39 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:00:42 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:00:44 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:01:04 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:03:32 [INFO]: GET /api/auth/profile - ::1
+2025-09-01 22:03:32 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:03:32 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:03:37 [INFO]: GET /api/auth/profile - ::1
+2025-09-01 22:03:37 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:03:37 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:04:17 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:04:17 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:05:04 [INFO]: POST /api/auth/logout - ::1
+2025-09-01 22:05:04 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-01 22:05:33 [INFO]: POST /api/auth/register - ::1
+2025-09-01 22:05:33 [INFO]: Novo usuário registrado: admin@email.com
+2025-09-01 22:05:35 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:05:48 [INFO]: POST /api/auth/login - ::1
+2025-09-01 22:05:49 [INFO]: Login realizado com sucesso: admin@email.com
+2025-09-01 22:05:50 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:05:50 [INFO]: GET /api/reports/dashboard - ::1
+2025-09-01 22:05:50 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:05:53 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:05:53 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:06:00 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:02 [INFO]: POST /api/raffles/with-image - ::1
+2025-09-01 22:07:02 [INFO]: Imagem da rifa enviada por admin@email.com: raffle_1756775222818-321472070.jpeg (3094 bytes)
+2025-09-01 22:07:02 [INFO]: Nova rifa criada com imagem: raffle_1756775222827_7degpk3l6 por usuário user_1756775133696_egsyulekm
+2025-09-01 22:07:03 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:07:04 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:11 [INFO]: GET /api/reports/dashboard - ::1
+2025-09-01 22:07:11 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:15 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:21 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:07:21 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:23 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:23 [INFO]: GET /api/reports/dashboard - ::1
+2025-09-01 22:07:23 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:26 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:34 [INFO]: PUT /api/raffles/raffle_1756775222827_7degpk3l6/status - ::1
+2025-09-01 22:07:34 [INFO]: Status da rifa raffle_1756775222827_7degpk3l6 alterado de pending para active por usuário user_1756775133696_egsyulekm
+2025-09-01 22:07:35 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:07:37 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:44 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:47 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:48 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:49 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:50 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:51 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:07:56 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:07:56 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:09:50 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:09:55 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:09:57 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:09:58 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:09:58 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:11:42 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:11:44 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:11:44 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:11:59 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:12:00 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:12:00 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:13:19 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:13:19 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:13:45 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:13:45 [ERROR]: Global Error Handler: Rota /api/tickets/sales/list?status=paid&page=1&limit=20 não encontrada {"url":"/api/tickets/sales/list?status=paid&page=1&limit=20","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"user_1756340056197_4dle2lolu"}
+Error: Rota /api/tickets/sales/list?status=paid&page=1&limit=20 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-01 22:14:25 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:15:40 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:15:43 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:15:44 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:15:54 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:16:15 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:16:17 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:16:35 [ERROR]: Erro ao carregar rotas: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js {"code":"MODULE_NOT_FOUND","requireStack":["/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js"]}
+Error: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+2025-09-01 22:16:35 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:16:51 [ERROR]: Erro ao carregar rotas: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js {"code":"MODULE_NOT_FOUND","requireStack":["/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js"]}
+Error: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+2025-09-01 22:16:51 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:16:52 [ERROR]: Erro ao carregar rotas: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js {"code":"MODULE_NOT_FOUND","requireStack":["/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js"]}
+Error: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+2025-09-01 22:16:52 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:17:18 [ERROR]: Erro ao carregar rotas: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js {"code":"MODULE_NOT_FOUND","requireStack":["/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js","/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js"]}
+Error: Cannot find module '../utils/paginationHelper'
+Require stack:
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/routes/tickets.js
+- /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1734:14)
+2025-09-01 22:17:18 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:17:29 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:17:29 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:17:45 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:21:12 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:21:30 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:21:33 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:22:27 [INFO]: GET /api/tickets/raffle/raffle_1756345833112_hlq61s2xw - ::1
+2025-09-01 22:22:28 [ERROR]: Global Error Handler: Rota /api/tickets/raffle/raffle_1756345833112_hlq61s2xw?page=1&limit=20 não encontrada {"url":"/api/tickets/raffle/raffle_1756345833112_hlq61s2xw?page=1&limit=20","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"user_1756775133696_egsyulekm"}
+Error: Rota /api/tickets/raffle/raffle_1756345833112_hlq61s2xw?page=1&limit=20 não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-01 22:23:42 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:23:44 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:23:47 [INFO]: GET /api/tickets/raffle/raffle_1756345833112_hlq61s2xw - ::1
+2025-09-01 22:24:05 [INFO]: GET /api/tickets/raffle/raffle_1756775222827_7degpk3l6 - ::1
+2025-09-01 22:24:05 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'findByRaffle') {"url":"/api/tickets/raffle/raffle_1756775222827_7degpk3l6?page=1&limit=20","method":"GET","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"user_1756775133696_egsyulekm"}
+TypeError: Cannot read properties of undefined (reading 'findByRaffle')
+    at TicketService.getTicketsByRaffle (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:174:28)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:139:40
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+2025-09-01 22:25:49 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:25:50 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:25:59 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:26:13 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:26:22 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:26:30 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:26:30 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:26:35 [INFO]: GET /api/tickets/raffle/raffle_1756775222827_7degpk3l6 - ::1
+2025-09-01 22:27:09 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:27:11 [INFO]: GET /api/reports/dashboard - ::1
+2025-09-01 22:27:11 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:27:15 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:27:20 [INFO]: POST /api/auth/logout - ::1
+2025-09-01 22:27:20 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-01 22:27:28 [INFO]: POST /api/auth/login - ::1
+2025-09-01 22:27:30 [INFO]: Login realizado com sucesso: admin@email.com
+2025-09-01 22:27:32 [INFO]: GET /api/reports/dashboard - ::1
+2025-09-01 22:27:32 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:27:34 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:27:45 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:27:45 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:27:56 [INFO]: GET /api/reports/dashboard - ::1
+2025-09-01 22:27:56 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:28:04 [INFO]: GET /api/payments/sales/list - ::1
+2025-09-01 22:28:04 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:31:11 [INFO]: GET /api/auth/profile - ::1
+2025-09-01 22:31:11 [INFO]: GET /api/auth/profile - ::1
+2025-09-01 22:31:12 [INFO]: GET /api/payments/my-payments - ::1
+2025-09-01 22:31:12 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'findById') {"url":"/api/payments/my-payments?page=1&limit=20","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+TypeError: Cannot read properties of undefined (reading 'findById')
+    at PaymentService.getPaymentStatus (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:134:37)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:46:41
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+2025-09-01 22:31:12 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:31:49 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:31:49 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:32:54 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:33:09 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:33:12 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:33:53 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 22:33:53 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'findById') {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+TypeError: Cannot read properties of undefined (reading 'findById')
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:37)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 22:34:00 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:34:21 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:34:21 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:34:27 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:34:27 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:34:30 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:34:31 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:34:31 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:34:31 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:34:32 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:34:32 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:34:44 [INFO]: GET /api/tickets/raffle/raffle_1756775222827_7degpk3l6 - ::1
+2025-09-01 22:35:42 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:35:43 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:35:44 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:35:44 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:35:47 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:35:49 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:35:59 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:36:12 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:37:08 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:37:10 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:37:32 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:37:34 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:37:34 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:40:36 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:40:39 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:41:58 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:41:59 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:42:01 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:42:08 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:42:10 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:42:11 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:42:13 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:42:17 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:42:17 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:44:58 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:45:00 [INFO]: GET /api/raffles/raffle_1756775222827_7degpk3l6 - ::1
+2025-09-01 22:46:36 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:46:37 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:47:35 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:47:37 [INFO]: GET /api/auth/profile - ::1
+2025-09-01 22:47:37 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:47:37 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:48:19 [INFO]: GET /api/tickets/raffle/raffle_1756775222827_7degpk3l6 - ::1
+2025-09-01 22:48:21 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:48:40 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:50:57 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:50:58 [INFO]: Servidor rodando na porta 3000
+2025-09-01 22:51:01 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 22:53:37 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 22:53:37 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'findById') {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+TypeError: Cannot read properties of undefined (reading 'findById')
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:37)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 22:53:42 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 22:53:42 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'findById') {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+TypeError: Cannot read properties of undefined (reading 'findById')
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:37)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 22:54:03 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 22:54:22 [INFO]: POST /api/tickets - ::1
+2025-09-01 22:54:22 [ERROR]: Erro ao comprar tickets: Cannot read properties of undefined (reading 'findByUserAndRaffle')
+TypeError: Cannot read properties of undefined (reading 'findByUserAndRaffle')
+    at TicketService.buyTickets (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:38:43)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:74:47
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 22:54:22 [ERROR]: Global Error Handler: logger.error is not a function {"url":"/api/tickets","method":"POST","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"user_1756775133696_egsyulekm"}
+TypeError: logger.error is not a function
+    at ResponseFormatter.error (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/utils/responseFormatter.js:29:12)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:90:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-09-01 23:00:33 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:00:35 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:00:49 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:00:50 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:05 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:06 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:20 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:21 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:25 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:26 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:34 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:36 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:01:41 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:01:41 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 23:01:48 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:01:48 [ERROR]: Global Error Handler: Cannot read properties of undefined (reading 'findById') {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+TypeError: Cannot read properties of undefined (reading 'findById')
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:37)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:04:47 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:04:48 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:04:54 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:04:55 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:05:03 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:05:04 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:05:16 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:05:18 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:05:29 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:05:29 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:08:52 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:08:52 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 23:08:57 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:08:57 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:09:00 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:09:00 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:10:17 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:10:17 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:10:19 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:10:19 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:10:20 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:10:20 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:10:21 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:10:21 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:10:22 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:10:22 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:10:23 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:10:23 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:10:26 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:10:26 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:10 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:11:10 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:11 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:11:11 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:14 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:11:14 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:17 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:11:17 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:17 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:11:17 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:18 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:11:18 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:19 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:11:19 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:11:58 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:12:07 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:12:21 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:12:21 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:13:40 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:13:40 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:13:42 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:13:42 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:13:50 [INFO]: PUT /api/tickets/ticket_1756777000000_pending001/cancel - ::1
+2025-09-01 23:13:50 [ERROR]: Erro ao cancelar ticket: Acesso negado
+Error: Acesso negado
+    at TicketService.cancelTicket (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/ticketService.js:84:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/ticketController.js:103:22
+2025-09-01 23:14:18 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:14:24 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:14:53 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:14:54 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:15 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:17 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:27 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:38 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:39 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:52 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:54 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:15:55 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:15:57 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:15:57 [ERROR]: Global Error Handler: Pagamento não encontrado {"url":"/api/payments/confirm","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+Error: Pagamento não encontrado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:79:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:34:46
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:17:25 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:17:26 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:17:35 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:17:36 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:17:45 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:17:47 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:17:47 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:17:47 [WARN]: Payment ticket_1756777100000_processing01 não encontrado, tentando buscar por ticket...
+2025-09-01 23:17:47 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:128:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:17:47 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:128:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:17:54 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:17:54 [WARN]: Payment ticket_1756777000000_pending001 não encontrado, tentando buscar por ticket...
+2025-09-01 23:17:54 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:128:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:17:54 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:128:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:19:03 [INFO]: GET /api/auth/profile - ::1
+2025-09-01 23:19:03 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:19:03 [INFO]: GET /api/raffles/user/my-raffles - ::1
+2025-09-01 23:19:08 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:19:09 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:19:28 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:19:29 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:19:33 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:19:33 [INFO]: Token decodificado: {"id":"user_1756775133696_egsyulekm","email":"admin@email.com","role":"user","iat":1756776450,"exp":1757381250}
+2025-09-01 23:19:33 [INFO]: Usuário encontrado: admin@email.com
+2025-09-01 23:19:33 [INFO]: confirmPayment chamado: paymentId=ticket_1756777100000_processing01, userId=user_1756775133696_egsyulekm
+2025-09-01 23:19:33 [INFO]: Busca por ID: não encontrado
+2025-09-01 23:19:33 [WARN]: Payment ticket_1756777100000_processing01 não encontrado, tentando buscar por ticket...
+2025-09-01 23:19:33 [INFO]: Busca por ticket: encontrado
+2025-09-01 23:19:33 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:19:33 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:19:33 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:21:14 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:21:28 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:21:28 [INFO]: Token decodificado: {"id":"user_1756775133696_egsyulekm","email":"admin@email.com","role":"user","iat":1756776450,"exp":1757381250}
+2025-09-01 23:21:28 [INFO]: Usuário encontrado: admin@email.com
+2025-09-01 23:21:28 [INFO]: confirmPayment chamado: paymentId=ticket_1756777100000_processing01, userId=user_1756775133696_egsyulekm
+2025-09-01 23:21:28 [INFO]: Busca por ID: não encontrado
+2025-09-01 23:21:28 [WARN]: Payment ticket_1756777100000_processing01 não encontrado, tentando buscar por ticket...
+2025-09-01 23:21:28 [INFO]: Busca por ticket: encontrado
+2025-09-01 23:21:28 [INFO]: Pagamento autorizado por: dono da rifa
+2025-09-01 23:21:28 [INFO]: Ticket ticket_1756777100000_processing01 confirmado como pago
+2025-09-01 23:21:28 [INFO]: Pagamento confirmado: payment_1756777100000_processing01 - R$ 30 por admin@email.com
+2025-09-01 23:21:28 [INFO]: GET /api/tickets/sales/list - ::1
+2025-09-01 23:21:28 [INFO]: Token decodificado: {"id":"user_1756775133696_egsyulekm","email":"admin@email.com","role":"user","iat":1756776450,"exp":1757381250}
+2025-09-01 23:21:28 [INFO]: Usuário encontrado: admin@email.com
+2025-09-01 23:21:30 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:21:44 [INFO]: Servidor rodando na porta 3000
+2025-09-01 23:21:44 [INFO]: POST /api/payments/confirm - ::1
+2025-09-01 23:21:44 [INFO]: Token decodificado: {"id":"user_1756775133696_egsyulekm","email":"admin@email.com","role":"user","iat":1756776450,"exp":1757381250}
+2025-09-01 23:21:44 [INFO]: Usuário encontrado: admin@email.com
+2025-09-01 23:21:44 [INFO]: confirmPayment chamado: paymentId=ticket_1756777000000_pending001, userId=user_1756775133696_egsyulekm
+2025-09-01 23:21:44 [INFO]: Busca por ID: não encontrado
+2025-09-01 23:21:44 [WARN]: Payment ticket_1756777000000_pending001 não encontrado, tentando buscar por ticket...
+2025-09-01 23:21:44 [INFO]: Busca por ticket: encontrado
+2025-09-01 23:21:44 [ERROR]: Permissão final negada: payment.user=user_1756340056197_4dle2lolu, userId=user_1756775133696_egsyulekm
+2025-09-01 23:21:44 [ERROR]: Erro em confirmPayment: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-01 23:21:44 [ERROR]: Erro ao confirmar pagamento: Acesso negado
+Error: Acesso negado
+    at PaymentService.confirmPayment (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/services/paymentService.js:145:15)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/paymentController.js:39:48
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)

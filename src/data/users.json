@@ -24,9 +24,39 @@
         "pushNotifications": true
       },
       "registeredAt": "2025-08-28T00:14:16.197Z",
-      "lastLogin": "2025-08-29T20:30:13.874Z",
+      "lastLogin": "2025-09-02T00:58:17.876Z",
       "totalPurchases": 0,
-      "updatedAt": "2025-08-29T20:30:13.874Z"
+      "updatedAt": "2025-09-02T00:58:17.876Z",
+      "totalSpent": 30,
+      "lastPurchase": "2025-09-02T02:21:28.186Z"
+    },
+    {
+      "id": "user_1756775133696_egsyulekm",
+      "name": "admin",
+      "email": "admin@email.com",
+      "phone": "(99) 99999-9999",
+      "password": "$2a$12$rSfUbp8Uc3Ck4SrN/3aE5uAHNEMfUufrbuio8YXJ8XvDytOkIGTR2",
+      "company": "Admin",
+      "role": "user",
+      "isActive": true,
+      "paymentSettings": {
+        "pixKey": "",
+        "bankName": "",
+        "agency": "",
+        "account": "",
+        "accountType": "corrente"
+      },
+      "notificationSettings": {
+        "emailNewPurchase": true,
+        "emailRaffleComplete": true,
+        "smsNewPurchase": false,
+        "smsRaffleComplete": true,
+        "pushNotifications": true
+      },
+      "registeredAt": "2025-09-02T01:05:33.696Z",
+      "lastLogin": "2025-09-02T01:27:30.294Z",
+      "totalPurchases": 0,
+      "updatedAt": "2025-09-02T01:27:30.294Z"
     }
   ]
 }
