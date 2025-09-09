@@ -1,98 +1,37 @@
 {
   "raffles": [
     {
-      "id": "raffle_1756344348899_v7shl9h1l",
-      "title": "iPhone 15 Pro Max 256GB",
-      "description": "iPhone 15 Pro Max novo na caixa, com todos os acessórios originais. Cor: Titânio Natural.",
-      "campaignImages": [],
-      "totalTickets": 1000,
-      "soldTickets": 0,
-      "ticketPrice": 10,
-      "drawType": "sorteador_com_br",
-      "drawDate": null,
-      "prizes": [],
-      "status": "cancelled",
-      "owner": "user_1756340056197_4dle2lolu",
-      "createdAt": "2025-08-28T01:25:48.899Z",
-      "updatedAt": "2025-08-29T19:19:45.778Z",
-      "settings": {
-        "minTicketsPerPurchase": 1,
-        "maxTicketsPerPurchase": 199,
-        "maxTicketsPerPerson": 50,
-        "showBuyersList": true,
-        "autoApprovePayments": false
-      },
-      "winner": null,
-      "winnerTicket": null,
-      "completedAt": null,
-      "platformFee": 147,
-      "estimatedRevenue": 9853
-    },
-    {
-      "id": "raffle_1756345833112_hlq61s2xw",
-      "title": "testes",
-      "description": "testesteste",
+      "id": "raffle_1757106663912_gobqm340u",
+      "title": "Rifa De um Iphone 15",
+      "description": "Essa rifa sera de um Iphone 15",
       "campaignImages": [
-        "/uploads/raffles/raffle_1756345833064-292161035.jpeg"
-      ],
-      "publicContactPhone": "(77) 77777-7777",
-      "category": "ELECTRONICS",
-      "totalTickets": 150,
-      "soldTickets": 0,
-      "ticketPrice": 52,
-      "drawType": "sorteador_com_br",
-      "drawDate": null,
-      "prizes": [
-        {
-          "id": "prize_1756345830449",
-          "name": "TEsta ",
-          "description": "asdas",
-          "position": 1
-        }
-      ],
-      "status": "active",
-      "owner": "user_1756340056197_4dle2lolu",
-      "createdAt": "2025-08-28T01:50:33.112Z",
-      "updatedAt": "2025-09-01T23:02:05.848Z",
-      "settings": {
-        "minTicketsPerPurchase": 1,
-        "maxTicketsPerPurchase": 199,
-        "maxTicketsPerPerson": 15,
-        "showBuyersList": false,
-        "autoApprovePayments": true
-      },
-      "winner": null,
-      "winnerTicket": null,
-      "completedAt": null,
-      "platformFee": 147,
-      "estimatedRevenue": 7653
-    },
-    {
-      "id": "raffle_1756775222827_7degpk3l6",
-      "title": "Rifa teste",
-      "description": "Teste teste teste",
-      "campaignImages": [
-        "/uploads/raffles/raffle_1756775222818-321472070.jpeg"
+        "/uploads/raffles/raffle_1757106663903-522959652.jpeg"
       ],
       "publicContactPhone": "(99) 99999-9999",
       "category": "ELECTRONICS",
-      "totalTickets": 100,
-      "soldTickets": 5,
-      "ticketPrice": 10,
+      "totalTickets": 250,
+      "soldTickets": 0,
+      "ticketPrice": 15,
       "drawType": "sorteador_com_br",
       "drawDate": null,
       "prizes": [
         {
-          "id": "prize_1756775205179",
-          "name": "500 reais",
-          "description": "Primeiro premio 500 reais",
+          "id": "prize_1757106626427",
+          "name": "Iphone ou 5 mil ",
+          "description": "Iphone ou 5 mil",
           "position": 1
+        },
+        {
+          "id": "prize_1757106662625",
+          "name": "500 reais",
+          "description": "500 reais",
+          "position": 2
         }
       ],
       "status": "active",
-      "owner": "user_1756775133696_egsyulekm",
-      "createdAt": "2025-09-02T01:07:02.827Z",
-      "updatedAt": "2025-09-02T01:07:34.573Z",
+      "owner": "user_1756340056197_4dle2lolu",
+      "createdAt": "2025-09-05T21:11:03.912Z",
+      "updatedAt": "2025-09-05T21:12:09.450Z",
       "settings": {
         "minTicketsPerPurchase": 1,
         "maxTicketsPerPurchase": 199,
@@ -103,9 +42,53 @@
       "winner": null,
       "winnerTicket": null,
       "completedAt": null,
-      "platformFee": 47,
-      "estimatedRevenue": 953,
-      "revenue": 50
+      "platformFee": 77,
+      "estimatedRevenue": 3673
+    },
+    {
+      "id": "raffle_1757106999527_zg10obgun",
+      "title": "Rifa de uma Moto ZERO KM",
+      "description": "Essa rifa é de uma moto ZERO KM 2025",
+      "campaignImages": [
+        "/uploads/raffles/raffle_1757106999516-609418497.jpeg"
+      ],
+      "publicContactPhone": "(99) 99999-9999",
+      "category": "VEHICLES",
+      "totalTickets": 1000,
+      "soldTickets": 0,
+      "ticketPrice": 35,
+      "drawType": "sorteador_com_br",
+      "drawDate": null,
+      "prizes": [
+        {
+          "id": "prize_1757106818024",
+          "name": "MOTO zero KM 2025",
+          "description": "Moto zero KM",
+          "position": 1
+        },
+        {
+          "id": "prize_1757106847622",
+          "name": "PIX de mil reais",
+          "description": "pix e mil reais",
+          "position": 2
+        }
+      ],
+      "status": "active",
+      "owner": "user_1756775133696_egsyulekm",
+      "createdAt": "2025-09-05T21:16:39.527Z",
+      "updatedAt": "2025-09-05T21:16:56.323Z",
+      "settings": {
+        "minTicketsPerPurchase": 1,
+        "maxTicketsPerPurchase": 199,
+        "maxTicketsPerPerson": 100,
+        "showBuyersList": false,
+        "autoApprovePayments": true
+      },
+      "winner": null,
+      "winnerTicket": null,
+      "completedAt": null,
+      "platformFee": 697,
+      "estimatedRevenue": 34303
     }
   ]
 }

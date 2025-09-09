@@ -12,6 +12,32 @@
       "description": "Imagem da rifa: TEste",
       "category": "raffle_images",
       "createdAt": "2025-08-28T01:50:33.105Z"
+    },
+    {
+      "id": "img_1756775222825_pede6p63y",
+      "originalName": "download.jpeg",
+      "filename": "raffle_1756775222818-321472070.jpeg",
+      "mimetype": "image/jpeg",
+      "size": 3094,
+      "path": "uploads/raffles/raffle_1756775222818-321472070.jpeg",
+      "url": "/uploads/raffles/raffle_1756775222818-321472070.jpeg",
+      "uploadedBy": "user_1756775133696_egsyulekm",
+      "description": "Imagem da rifa: Rifa teste",
+      "category": "raffle_images",
+      "createdAt": "2025-09-02T01:07:02.825Z"
+    },
+    {
+      "id": "img_1757106663909_js94jo8w7",
+      "originalName": "download.jpeg",
+      "filename": "raffle_1757106663903-522959652.jpeg",
+      "mimetype": "image/jpeg",
+      "size": 3094,
+      "path": "uploads/raffles/raffle_1757106663903-522959652.jpeg",
+      "url": "/uploads/raffles/raffle_1757106663903-522959652.jpeg",
+      "uploadedBy": "user_1756340056197_4dle2lolu",
+      "description": "Imagem da rifa: Rifa De um Iphone 15",
+      "category": "raffle_images",
+      "createdAt": "2025-09-05T21:11:03.909Z"
     }
   ]
 }

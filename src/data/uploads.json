@@ -25,6 +25,32 @@
       "description": "Imagem da rifa: Rifa teste",
       "category": "raffle_images",
       "createdAt": "2025-09-02T01:07:02.825Z"
+    },
+    {
+      "id": "img_1757106663909_js94jo8w7",
+      "originalName": "download.jpeg",
+      "filename": "raffle_1757106663903-522959652.jpeg",
+      "mimetype": "image/jpeg",
+      "size": 3094,
+      "path": "uploads/raffles/raffle_1757106663903-522959652.jpeg",
+      "url": "/uploads/raffles/raffle_1757106663903-522959652.jpeg",
+      "uploadedBy": "user_1756340056197_4dle2lolu",
+      "description": "Imagem da rifa: Rifa De um Iphone 15",
+      "category": "raffle_images",
+      "createdAt": "2025-09-05T21:11:03.909Z"
+    },
+    {
+      "id": "img_1757106999520_7vdn6f9on",
+      "originalName": "download.jpeg",
+      "filename": "raffle_1757106999516-609418497.jpeg",
+      "mimetype": "image/jpeg",
+      "size": 3094,
+      "path": "uploads/raffles/raffle_1757106999516-609418497.jpeg",
+      "url": "/uploads/raffles/raffle_1757106999516-609418497.jpeg",
+      "uploadedBy": "user_1756775133696_egsyulekm",
+      "description": "Imagem da rifa: Rifa de uma Moto ZERO KM",
+      "category": "raffle_images",
+      "createdAt": "2025-09-05T21:16:39.521Z"
     }
   ]
 }

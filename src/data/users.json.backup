@@ -24,11 +24,11 @@
         "pushNotifications": true
       },
       "registeredAt": "2025-08-28T00:14:16.197Z",
-      "lastLogin": "2025-09-02T00:58:17.876Z",
+      "lastLogin": "2025-09-05T20:52:34.300Z",
       "totalPurchases": 0,
-      "updatedAt": "2025-09-02T00:58:17.876Z",
-      "totalSpent": 30,
-      "lastPurchase": "2025-09-02T02:21:28.186Z"
+      "updatedAt": "2025-09-05T20:52:34.300Z",
+      "totalSpent": 50,
+      "lastPurchase": "2025-09-02T02:41:00.018Z"
     },
     {
       "id": "user_1756775133696_egsyulekm",
@@ -54,9 +54,9 @@
         "pushNotifications": true
       },
       "registeredAt": "2025-09-02T01:05:33.696Z",
-      "lastLogin": "2025-09-02T01:27:30.294Z",
+      "lastLogin": "2025-09-02T16:22:33.704Z",
       "totalPurchases": 0,
-      "updatedAt": "2025-09-02T01:27:30.294Z"
+      "updatedAt": "2025-09-02T16:22:33.704Z"
     }
   ]
 }

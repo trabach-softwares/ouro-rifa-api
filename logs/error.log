@@ -2970,3 +2970,435 @@ Error: Acesso negado
     at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:284:15
     at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:346:12)
     at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+2025-09-02 13:19:02 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-02 13:22:27 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-05 17:14:30 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:14:31 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:14:34 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:19:38 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:21:35 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-05 17:24:31 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:30:43 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:42:44 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:46:32 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:51:05 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:51:56 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-05 17:56:29 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 17:56:32 [ERROR]: Global Error Handler: Rota /campaigns não encontrada {"url":"/campaigns","method":"GET","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /campaigns não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/server.js:26:5
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+2025-09-05 18:10:46 [ERROR]: Erro ao criar rifa: [{"field":"prizes.1.description","message":"\"prizes[1].description\" is not allowed to be empty"}]
+Error: [{"field":"prizes.1.description","message":"\"prizes[1].description\" is not allowed to be empty"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:10:46 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756340056197_4dle2lolu"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:12:11 [ERROR]: Global Error Handler: Rota /api/auth/logout não encontrada {"url":"/api/auth/logout","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
+Error: Rota /api/auth/logout não encontrada
+    at handleNotFound (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:101:15)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:286:9
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/index.js:265:14)
+2025-09-05 18:13:40 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:13:40 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:13:45 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:13:45 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:13:53 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:13:53 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:14:09 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:14:09 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:14:12 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:14:12 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:14:32 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:14:32 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:14:36 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:14:36 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:14:39 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:14:39 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
+2025-09-05 18:14:54 [ERROR]: Erro ao criar rifa: [{"field":"category","message":"Categoria inválida"}]
+Error: [{"field":"category","message":"Categoria inválida"}]
+    at RaffleValidator.validate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:199:13)
+    at RaffleValidator.validateCreate (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/validators/raffleValidator.js:206:17)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:266:45
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+2025-09-05 18:14:54 [ERROR]: Global Error Handler: uploadInfo is not defined {"url":"/api/raffles/with-image","method":"POST","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36","userId":"user_1756775133696_egsyulekm"}
+ReferenceError: uploadInfo is not defined
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/controllers/raffleController.js:340:7
+    at RaffleController.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/src/middleware/errorHandler.js:95:21)
+    at Layer.handle [as handle_request] (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:47:7)
+    at indicateDone (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:51:68)
+    at /Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/lib/make-middleware.js:157:11
+    at WriteStream.<anonymous> (/Users/jonathantrabach/Documents/Jonathan/ouro rifa/ouro-rifa-api/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:519:35)
+    at finish (node:internal/streams/writable:953:10)
